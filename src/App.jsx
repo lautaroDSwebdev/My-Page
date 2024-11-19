@@ -1,6 +1,5 @@
 
-import { Header } from './Components/HeaderComponent'
-import { Main } from "./Components/MainSection"
+import { Header , Main} from './Components/index'
 import { createContext, useState } from 'react'
 import {gsap} from "gsap"
 import { LanguagePage } from './ObjectData/ObjectData'
