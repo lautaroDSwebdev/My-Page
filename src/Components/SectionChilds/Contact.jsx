@@ -6,9 +6,6 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import data from '../../ObjectData/ObjectData copy.json'
-import { Toaster, toast } from 'sonner'
-// import  '../../input.css'
-
 
 export const Contact = () => {
     const schema = yup.object({
@@ -19,14 +16,12 @@ export const Contact = () => {
     }).required();
 
     const Submited = () => {
-        // toast.success("Datos enviados")
     }
 
     const { register, handleSubmit, formState: { errors } } = useForm({
         resolver: yupResolver(schema)
     });
     const onSubmit = (data) => {
-        // toast.success("Datos enviados");
     } 
 
     
@@ -68,9 +63,6 @@ export const Contact = () => {
                                             <FaWhatsapp className="h-auto w-[3rem] drop-shadow-2xl text-[#636363]" />
                                         </a>
                                     </div>
-                                    {/* <div className=" flex justify-center">
-                                        <b>WHATSAPP</b>
-                                    </div> */}
                                 </div>
 
                                 <div className="flex justify-center flex-col">
@@ -80,9 +72,6 @@ export const Contact = () => {
                                             <MdAttachEmail className="h-auto w-[3rem] drop-shadow-2xl text-[#636363]" />
                                         </a>
                                     </div>
-                                    {/* <div className="flex justify-center">
-                                        <b>GMAIL</b>
-                                    </div> */}
                                 </div>
                             </div>
                         </article>
