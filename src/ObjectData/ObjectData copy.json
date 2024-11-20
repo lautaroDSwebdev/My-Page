@@ -117,7 +117,7 @@
       },
       {
         "id": 2,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/prueba-tecnica-buscadorPerfilGitHub",
+        "linkRepo": "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         "linkweb": "https://prueba-tecnica-lautaro.netlify.app/",
         "tituloProyecto": "Buscador de cuenta Github",
         "imagenProyecto": "../../assets/vista-desktop-mobile-githubsearch.png",
@@ -139,7 +139,7 @@
       },
       {
         "id": 3,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/search-country",
+        "linkRepo": "https://github.com/lautaroDSwebdev/search-country",
         "linkweb": "https://search-country-web.netlify.app/#/All",
         "tituloProyecto": "Buscador de Paises",
         "imagenProyecto": "../../assets/SearchCountry.png",
@@ -169,7 +169,7 @@
       },
       {
         "id": 4,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/My-Page",
+        "linkRepo": "https://github.com/lautaroDSwebdev/My-Page",
         "tituloProyecto": "Mi Portfolio",
         "imagenProyecto": "../../assets/imagen-portfolio-proyecto.png",
         "TechUsada":  [
@@ -198,7 +198,7 @@
       },
       {
         "id": 5,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/proyecto-turismo-espacial",
+        "linkRepo": "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         "linkweb": "https://turismo-espacial-practica-front.netlify.app/",
         "tituloProyecto": "Space Turism",
         "imagenProyecto": "../../assets/space.png",
@@ -311,7 +311,7 @@
       },
       {
         "id": 2,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/prueba-tecnica-buscadorPerfilGitHub",
+        "linkRepo": "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         "linkweb": "https://prueba-tecnica-lautaro.netlify.app/",
         "tituloProyecto": "GitHub Account Searcher",
         "imagenProyecto": "../../assets/EduSync logo.png",
@@ -319,7 +319,7 @@
       },
       {
         "id": 3,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/search-country",
+        "linkRepo": "https://github.com/lautaroDSwebdev/search-country",
         "linkweb": "https://search-country-web.netlify.app/#/All",
         "tituloProyecto": "Country Searcher",
         "imagenProyecto": "../../assets/SearchCountry.png",
@@ -327,14 +327,14 @@
       },
       {
         "id": 4,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/My-Page",
+        "linkRepo": "https://github.com/lautaroDSwebdev/My-Page",
         "tituloProyecto": "My Portfolio",
         "imagenProyecto": "../../assets/imagen-portfolio-proyecto.png",
         "TechUsada": ""
       },
       {
         "id": 5,
-        "linkRepo": "https://github.com/Lautaro-Di-Salvo-Code/proyecto-turismo-espacial",
+        "linkRepo": "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         "linkweb": "https://turismo-espacial-practica-front.netlify.app/",
         "tituloProyecto": "Space Tourism",
         "imagenProyecto": "../../assets/space.png",
