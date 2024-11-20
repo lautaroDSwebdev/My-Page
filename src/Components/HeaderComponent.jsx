@@ -48,7 +48,7 @@ export const Header = () => {
         <div className="">
           <section className=" flex flex-row justify-center">
             <div className=" mx-4 md:hover:scale-105 rounded-full  ">
-              <a target="_blank" href="https://github.com/Lautaro-Di-Salvo-Code">
+              <a target="_blank" href="https://github.com/lautaroDSwebdev">
                 <FiGithub className="text-[3rem]" />
               </a>
             </div>
