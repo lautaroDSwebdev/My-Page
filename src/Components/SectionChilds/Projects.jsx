@@ -1,7 +1,4 @@
-import { useContext } from "react"
-import { ContextoGlobal } from "../../App"
-import data from '../../ObjectData/ObjectData copy.json'
-import { ArrayTech } from "./Tecnologias"
+import data from '../../ObjectData/globalData.json'
 import '../SectionChilds/stylesLinksProjects.css'
 
 const dataProjects = data.es.proyectos
@@ -44,7 +41,7 @@ export const Projects = () => {
                                                         e.linkweb ?
                                                             <a target="_blank" href={e.linkweb}
                                                                 className="a_links"
-                                                            // className=" py-[.5rem] px-[1rem] rounded-xl bg-color-botonesproyectos md:hover:bg-hovercolor-botonesproyectos md:hover:scale-110 md:cursor-pointer transition duration-75 ease-linear  box-shadow-tech-desk"
+
                                                             >web</a>
                                                             : ""
                                                     }
@@ -55,11 +52,7 @@ export const Projects = () => {
                                                                 className="a_links">codigo</a>
                                                             : ""
                                                     }
-                                                    {/* <a target="_blank"
-                                                        href={e.linkRepo}
-                                                        className="a_links"
-                                                    // className="bg-color-botonesproyectos md:hover:bg-hovercolor-botonesproyectos rounded-xl py-[.5rem] px-[1rem] md:hover:scale-110 md:cursor-pointer transition duration-75 ease-linear box-shadow-tech-desk  "
-                                                    >codigo</a> */}
+
                                                 </div>
                                             </section>
                                         </article>

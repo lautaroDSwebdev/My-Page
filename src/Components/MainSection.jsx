@@ -2,7 +2,7 @@
 import { useContext } from "react"
 import { Aboutme, Contact, Projects } from "./SectionChilds/index"
 import { ContextoGlobal } from "../App"
-import json from '../ObjectData/ObjectData copy.json'
+import json from '../ObjectData/globalData.json'
 
 
 export const Main = () => {

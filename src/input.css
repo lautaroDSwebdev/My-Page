@@ -16,9 +16,7 @@ div {
   font-size: 16px;
   color: #fff;
 }
-/* .border-projects{
-    border-bottom: 6px solid #a39f9f;
-} */
+
 /* interaccion con el nav bar mobile */
 .nav-mobile {
   visibility: hidden;
@@ -34,14 +32,7 @@ div {
   z-index: 900;
 }
 
-/* form >*{
-    margin: 1rem .5rem;
-    border-radius: 9px;
-    border-bottom: solid #2f2e2e 2px ;
-    box-shadow: 0px 2px 7px #2f2e2e;
-    color: #2f2e2e;
-    font-size: 1.5rem;
-} */
+
 
 
 .claseEmail,
@@ -102,17 +93,7 @@ b {
   box-shadow: -1px 6px 14px rgb(40, 38, 38);
 }
 
-/* @media screen and (min-width:800px ){
 
-    .shadow-tech:hover{
-        transition: .5s ease-in-out;
-        box-shadow:0px 19px 26px #949393;
-    }
-    .shadow-tech:not(:hover){
-        transition: .5s ease-in-out;
-        
-    }
-} */
 .dimensiones-cajas-tech {
   min-width: 5rem;
 }
@@ -209,27 +190,28 @@ b {
   transition: box-shadow 0.2s ease-in;
 }
 
-.alturaNav{
+/* Todo esto son las animaciones de la nueva caracteristica de css, todavia no está en todos los navegadores */
+/* .alturaNav{
      height: 7rem;
     animation: Nav linear both;
     animation-timeline: scroll( root block);
     animation-range: 0 10%;
-}
+} */
 
-@keyframes Nav {
+/* @keyframes Nav {
     to{
         height: 6rem;
     }
-}
+} */
 
 .navAnimation{
     font-size: 2rem;
-    animation: animacionNav linear both;
+    /* animation: animacionNav linear both;
     animation-timeline: scroll( root block);
-    animation-range: 0 10%;
+    animation-range: 0 10%; */
 }
 
-@keyframes animacionNav {
+/* @keyframes animacionNav {
     to{
         font-size: 1.8rem;
     }
@@ -257,4 +239,4 @@ b {
     to{
         opacity: 10%;
     }
-}
+} */

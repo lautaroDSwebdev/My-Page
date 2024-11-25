@@ -1,5 +1,5 @@
 
-import data from "../ObjectData/ObjectData copy.json"
+import data from "../ObjectData/globalData.json"
 
 
 export const Nav = () => {
@@ -9,7 +9,6 @@ export const Nav = () => {
         document.querySelector(".nav-mobile").classList.toggle("active")
     }
     return (
-        // md:text-[1.3rem]  vlg:text-[2rem]  para el navOptions
         <>
             <div>
                 <nav className=" fixed bg-[#0d0a0ad9] w-full hidden md:block mx-auto z-index-sup  alturaNav   ">
