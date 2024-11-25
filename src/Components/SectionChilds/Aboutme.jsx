@@ -1,5 +1,5 @@
-import { useContext, useEffect, useState } from "react"
-import { ContextoGlobal } from "/src/App"
+import { useContext } from "react"
+// import { ContextoGlobal } from "/src/App"
 import { ArrayTech } from "./Tecnologias"
 import data from '../../ObjectData/globalData.json'
 
@@ -7,7 +7,6 @@ const about = data.es.sobreMi
 
 export const Aboutme = () => {
 
-    const { texto } = useContext(ContextoGlobal)
     return (
         <>
             <div className=" flex justify-center w-full  ">
@@ -16,7 +15,8 @@ export const Aboutme = () => {
                     {about.titulo}</h2>
             </div>
             <article className="w-full   rounded-3xl  ">
-                <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem] text-titles-section-color">{texto.sobreMi.tecnologias}</p>
+                <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem]
+                    text-titles-section-color">{about.tecnologias}</p>
                 <section className=" flex flex-wrap justify-center mx-auto  mb-[1rem]  gap-[7px] max-w-maximoAnchoUltrawide">
                     {ArrayTech.map(e => (
                         <div key={e.id} className="animacionView flex justify-center flex-col   bg-box-sections-bgcolor dimensiones-cajas-tech  rounded-xl shadow-tech">

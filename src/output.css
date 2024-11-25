@@ -743,9 +743,7 @@ video {
   background-color: rgb(217 217 217 / var(--tw-bg-opacity));
 }
 
-.bg-yoCodeando {
-  background-image: url('/src/assets/fondoback-optimizado (1).webp');
-}
+
 
 .bg-cover {
   background-size: cover;

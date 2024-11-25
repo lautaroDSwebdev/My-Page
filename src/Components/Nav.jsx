@@ -19,17 +19,12 @@ export const Nav = () => {
                                     <a className="navAnimation cursor-pointer
                                         NavPresentacion 
                                         hover:text-[#dddcdc]   
-                                        
+                                        text-[1.3rem]
                                         mx-4"
                                         href={e.href}>{e.navOption}</a>
                                 </div>
                             ))
                         }
-                        {/* <div className=" pt-[1.5rem] div-nav4 NavPresentacion">
-                            <button onClick={HandleLang} className="botonn cursor-pointer     mx-4  md:text-[1.3rem] ">
-                                {texto.botonIdioma}
-                            </button>
-                        </div> */}
                     </div>
                 </nav>
                 {/*  barra de navegacion celular */}
@@ -43,11 +38,7 @@ export const Nav = () => {
                                 </div>
                             ))
                         }
-                        {/* <div className="mx-auto bg-[#d9d9d9] my-[2rem]">
-                            <button onClick={HandleLang} className=" mx-4 text-[2rem] text-[#000]">
-                                {texto.botonIdioma}
-                            </button>
-                        </div> */}
+                        
                     </div>
                 </div>
             </div>
