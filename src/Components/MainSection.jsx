@@ -1,7 +1,5 @@
 
-import { useContext } from "react"
 import { Aboutme, Contact, Projects } from "./SectionChilds/index"
-import { ContextoGlobal } from "../App"
 import json from '../ObjectData/globalData.json'
 
 
@@ -9,7 +7,6 @@ export const Main = () => {
 
 
     const about = json.es.sobreMi
-    const { texto } = useContext(ContextoGlobal)
 
     return (
         <>

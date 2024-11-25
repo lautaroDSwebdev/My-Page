@@ -24,7 +24,7 @@ export default {
       "tamaño-letra-titulosDeSecciones": "2rem"
     },
     textColor:{
-      "titles-section-color":"#000",
+      "titles-section-color":"#fff",
     },
    backgroundColor:{
     "body-bgcolor":"#fff",
