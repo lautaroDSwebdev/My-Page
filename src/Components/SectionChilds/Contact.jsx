@@ -1,11 +1,9 @@
-import { useContext } from "react"
-import { ContextoGlobal } from "../../App"
 import { FaWhatsapp } from "react-icons/fa";
 import { MdAttachEmail } from "react-icons/md";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import data from '../../ObjectData/ObjectData copy.json'
+import data from '../../ObjectData/globalData.json'
 
 export const Contact = () => {
     const schema = yup.object({
@@ -22,9 +20,9 @@ export const Contact = () => {
         resolver: yupResolver(schema)
     });
     const onSubmit = (data) => {
-    } 
+    }
 
-    
+
 
     const contactO = data.es.contacto
 
@@ -95,7 +93,7 @@ export const Contact = () => {
                         {...register("contactarmePara")}
                         placeholder={contactO.razonContacto}
 
-                        ></textarea>
+                    ></textarea>
 
                     <p className="text-[#e72d2d] text-center ">{errors.contactarmePara?.message && "Pon la razon para colaborar, por favor"}</p>
 

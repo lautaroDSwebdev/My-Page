@@ -1,7 +1,7 @@
 import { useContext, useEffect, useState } from "react"
 import { ContextoGlobal } from "/src/App"
 import { ArrayTech } from "./Tecnologias"
-import data from '../../ObjectData/ObjectData copy.json'
+import data from '../../ObjectData/globalData.json'
 
 const about = data.es.sobreMi
 

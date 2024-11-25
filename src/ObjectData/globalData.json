@@ -29,33 +29,18 @@
       "nombre": "Soy",
       "profesion": "Desarrollador Frontend"
     },
-    "InfoSocialMedia": [
-      {
-        "id": 1,
-        "url":  "https://github.com/lautaroDSwebdev",
-        "sm": "github"
-      },
-      {
-        "id": 2,
-        "url": "https://www.linkedin.com/in/lautaro-di-salvo-bb2308285/",
-        "sm": "linkedin"
-      },
-      {
-        "id": 3,
-        "url": "https://api.whatsapp.com/send?phone=5492494379804",
-        "sm": "whatsapp"
-      },
-      {
-        "id": 4,
-        "url": "mailto:lautarodisalvo5@gmail.com",
-        "sm": "mail"
-      },
-      {
-        "id": 5,
-        "url": "https://drive.google.com/file/d/1nC1wqn5IuZ83UbDqLFIgTfixuXVu3UlX/view?usp=sharing",
-        "sm": "mail"
-      }
-    ],
+    "InfoSocialMedia": {
+        "urlGithub":  "https://github.com/lautaroDSwebdev",
+        "nombregit": "github",
+        "urlLinkedin": "https://www.linkedin.com/in/lautaro-di-salvo-bb2308285/",
+        "nombreLinkedin": "linkedin",
+        "urlWhatsupp": "https://api.whatsapp.com/send?phone=5492494379804",
+        "nombreWahstapp": "whatsapp",
+        "urlmail": "mailto:lautarodisalvo5@gmail.com",
+        "nombreMail": "mail",
+        "urlCV2024": "https://drive.google.com/file/d/1fV0x5Tyxt-apBTgNIx-MYdiWMg8XDlK_/view?usp=drive_link",
+        "nombreDriveCV": "mail"
+    },
       "mail": "Mail",
       "facebook": "Facebook",
       "whatsapp": "Whatsapp"
