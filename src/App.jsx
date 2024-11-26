@@ -8,6 +8,7 @@ function App() {
     document.querySelector(".nav-mobile").classList.toggle("active")
   }
 
+  
   return (
     <>
 
