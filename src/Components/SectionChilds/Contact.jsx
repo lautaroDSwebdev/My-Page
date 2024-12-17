@@ -38,7 +38,7 @@ export const Contact = () => {
 
             <section className="animacionView my-margin-secciones-global md:grid md:grid-cols-2 mt-[1rem]
             mb-[6rem] bg-box-sections-bgcolor rounded-xl mx-[1rem] md:mx-auto p-[1rem] 
-                max-w-maximoAnchosmallwide box-shadow-form">
+            max-width-container box-shadow-form">
 
                 <div className=" md:grid md:place-items-center">
 

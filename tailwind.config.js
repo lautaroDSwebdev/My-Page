@@ -11,8 +11,7 @@ export default {
       }
     },
     maxWidth:{
-      "maximoAnchosmallwide": "1200px",
-      "maximoAnchoNormal": "900px",
+      // "maximoAnchosmallwide": "900px",
       "maximoAnchoUltrawide": "1300px",
       "maxw-img": "10rem"
     },

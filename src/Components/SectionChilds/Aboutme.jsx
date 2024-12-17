@@ -1,5 +1,3 @@
-import { useContext } from "react"
-// import { ContextoGlobal } from "/src/App"
 import { ArrayTech } from "./Tecnologias"
 import data from '../../ObjectData/globalData.json'
 
@@ -17,13 +15,13 @@ export const Aboutme = () => {
             <article className="w-full   rounded-3xl  ">
                 <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem]
                     text-titles-section-color">{about.tecnologias}</p>
-                <section className=" flex flex-wrap justify-center mx-auto  mb-[1rem]  gap-[7px] max-w-maximoAnchoUltrawide">
+                <section className=" grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-center mx-auto  mb-[1rem]  gap-[10px] max-width-container">
                     {ArrayTech.map(e => (
-                        <div key={e.id} className="animacionView flex justify-center flex-col   bg-box-sections-bgcolor dimensiones-cajas-tech  rounded-xl shadow-tech">
-                            <div className="flex justify-center">
+                        <div key={e.id} className="animacionView max flex justify-center flex-col   bg-[#97979f] dimensiones-cajas-tech  rounded-xl shadow-tech">
+                            <div className="flex justify-center ">
                                 <img className="ancho-imagenes-tech " src={e.img} />
                             </div>
-                            <p className={`text-center ${e.tecnologia ? "p-1" : ""}   text-[1rem] font-semibold text-[#000] `}>{e.tecnologia}</p>
+                            <p className={`text-center ${e.tecnologia ? "p-1" : ""}   text-[1rem] font-semibold text-[#fff] `}>{e.tecnologia}</p>
                             <div>
                             </div>
                         </div>
