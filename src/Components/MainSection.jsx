@@ -17,7 +17,7 @@ export const Main = () => {
 
 
                 <article
-                    className="animacionView box-shadow-aboutme rounded-[2.4rem] bg-box-sections-bgcolor mx-auto w-full md:mx-auto relative top-[5rem]  mb-[13rem] max-w-maximoAnchosmallwide ">
+                    className="animacionView box-shadow-aboutme rounded-[2.4rem] bg-box-sections-bgcolor mx-auto w-full md:mx-auto relative top-[5rem]  mb-[13rem] max-width-container ">
 
                     <div className="mx-auto  w-full md:grid md:grid-cols-3 ">
 
@@ -31,20 +31,12 @@ export const Main = () => {
                                 <br />
                                 <br />
                                 {about.aprendoYmejoro2}
-
                             </p>
                         </article>
-
-
-
                         <article className="flex justify-center flex-wrap py-[25px] content-center flex-grow">
-                            <img className="h-auto object-fill  rounded-full ssm:w-[16rem]  md:p-[2rem] md:w-[21rem]"
-                                src="../assets/imagenMia.png" alt="" />
+                            <img className="  my_selfie_style "
+                                src={about.selfie} alt="mi-selfie" />
                         </article>
-
-
-
-
                     </div>
                 </article>
             </section>

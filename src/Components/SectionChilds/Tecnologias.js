@@ -7,6 +7,7 @@ export const ArrayTech = [
     img: "../../assets/js.svg",
   },
   { id: 43556564345354, tecnologia: "React Js", img: "../../assets/react.svg" },
+  { id: 6555565, tecnologia: "Astro Js", img: "../../../public/assets/Astro.svg" },
   {
     id: 4545565645354,
     tecnologia: "Tailwind",

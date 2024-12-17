@@ -52,7 +52,8 @@
       "aprendoYmejoro": "Aprendo y supero nuevos retos semanalmente y analizo cómo mejoran mis habilidades a través de ellos.",
       "experiencia": "+2 Años de experiencia como Programador Front-End",
       "sobremi1": "Convierto ideas en código",
-      "aprendoYmejoro2": "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas."
+      "aprendoYmejoro2": "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
+      "selfie": "../assets/imagenMia.png" 
       
       
       
@@ -60,27 +61,40 @@
     "sectionProjects": "Proyectos",
     "proyectos": [
       {
+        "id": 0,
+        "linkRepo": "https://github.com/lautaroDSwebdev/caprichoso",
+        "linkweb": "https://caprichoso.netlify.app/home/",
+        "tituloProyecto": "Caprichoso Portfolio",
+        "imagenProyecto": "../../public/assets/Caprichoso.webp",
+        "TechUsada": [
+          {
+            "id": 1,
+            "nombre": "Astro"
+          },
+          {
+            "id": 5,
+            "nombre": "CSS"
+          },
+          {
+            "id": 7,
+            "nombre": "Typescript"
+          },
+          {
+            "id": 8,
+            "nombre": "Tailwind"
+          }
+        ]
+      },
+      {
         "id": 1,
         "linkRepo": "https://github.com/Otorb/edutech",
         "linkweb": "https://edusync-ten.vercel.app/",
         "tituloProyecto": "EduSync",
-        "imagenProyecto": "../../assets/EduSync logo.png",
+        "imagenProyecto": "../../public/assets/EduSync-logo.webp",
         "TechUsada": [
           {
             "id": 1,
             "nombre": "React"
-          },
-          {
-            "id": 2,
-            "nombre": "reduxToolkit"
-          },
-          {
-            "id": 3,
-            "nombre": "React Data Tables"
-          },
-          {
-            "id": 4,
-            "nombre": "MVC"
           },
           {
             "id": 5,
@@ -105,7 +119,7 @@
         "linkRepo": "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         "linkweb": "https://prueba-tecnica-lautaro.netlify.app/",
         "tituloProyecto": "Buscador de cuenta Github",
-        "imagenProyecto": "../../assets/vista-desktop-mobile-githubsearch.png",
+        "imagenProyecto": "../../public/assets/vista-desktop-mobile-githubsearch.webp",
         "TechUsada": [
           {
             "id": 1,
@@ -117,7 +131,7 @@
           },
           {
             "id": 3,
-            "nombre": "Api Git"
+            "nombre": "Api Github"
           }
         
         ]
@@ -127,19 +141,11 @@
         "linkRepo": "https://github.com/lautaroDSwebdev/search-country",
         "linkweb": "https://search-country-web.netlify.app/#/All",
         "tituloProyecto": "Buscador de Paises",
-        "imagenProyecto": "../../assets/SearchCountry.png",
+        "imagenProyecto": "../../public/assets/SearchCountry.webp",
         "TechUsada": [
           {
             "id": 1,
             "nombre": "React"
-          },
-          {
-            "id": 2,
-            "nombre": "useContext"
-          },
-          {
-            "id": 3,
-            "nombre": "useParams"
           },
           {
             "id": 4,
@@ -147,7 +153,7 @@
           },
           {
             "id": 5,
-            "nombre": "Json"
+            "nombre": "Css"
           }
         
         ]
@@ -156,7 +162,7 @@
         "id": 4,
         "linkRepo": "https://github.com/lautaroDSwebdev/My-Page",
         "tituloProyecto": "Mi Portfolio",
-        "imagenProyecto": "../../assets/imagen-portfolio-proyecto.png",
+        "imagenProyecto": "../../public/assets/imagen-portfolio-proyecto.webp",
         "TechUsada":  [
           {
             "id": 1,
@@ -167,16 +173,8 @@
             "nombre": "Tailwind"
           },
           {
-            "id": 3,
-            "nombre": "React Icons"
-          },
-          {
             "id": 4,
             "nombre": "Figma"
-          },
-          {
-            "id": 5,
-            "nombre": "Json"
           }
         
         ]
@@ -186,7 +184,7 @@
         "linkRepo": "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         "linkweb": "https://turismo-espacial-practica-front.netlify.app/",
         "tituloProyecto": "Space Turism",
-        "imagenProyecto": "../../assets/space.png",
+        "imagenProyecto": "../../public/assets/space.webp",
         "TechUsada":  [
           {
             "id": 1,
@@ -199,11 +197,8 @@
           {
             "id": 3,
             "nombre": "JavaScript"
-          },
-          {
-            "id": 4,
-            "nombre": "XMLHttpRequest"
           }
+          
         
         ]
       },
@@ -211,7 +206,7 @@
         "id": 6,
         "linkweb": "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         "tituloProyecto": "Pagina Pizzeria",
-        "imagenProyecto": "../../assets/frame crocante.png",
+        "imagenProyecto": "../../public/assets/frame-crocante.webp",
         "TechUsada":  [
           {
             "id": 1,
@@ -224,7 +219,7 @@
         "id": 7,
         "linkweb": "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         "tituloProyecto": "Odontología",
-        "imagenProyecto": "../../assets/frame odontologia.png",
+        "imagenProyecto": "../../public/assets/frame-odontologia.webp",
         "TechUsada": [
           {
             "id": 1,
