@@ -6,8 +6,10 @@ export const ArrayTech = [
     tecnologia: "JavaScript",
     img: "/src/assets/js.svg",
   },
+
   { id: 43556564345354, tecnologia: "React Js", img: "/src/assets/react.svg" },
   { id: 6555565, tecnologia: "Astro Js", img: "/src/assets/Astro.svg" },
+
   {
     id: 4545565645354,
     tecnologia: "Tailwind",
