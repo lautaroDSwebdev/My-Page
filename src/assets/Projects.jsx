@@ -1,4 +1,4 @@
-import data from '../../ObjectData/globalData.json'
+import data from '../ObjectData/globalData.json'
 import '../SectionChilds/stylesProjects.css'
 
 const dataProjects = data.es.proyectos
