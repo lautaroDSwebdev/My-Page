@@ -1,12 +1,12 @@
 import { createContext, useState } from "react"
-import  data  from '../ObjectData/globalData.json'
+import { dataApp } from "../mock/index"
 
 export const ProveedorContexto = createContext()
 
 const ComponentContext = ({children}) => {
     const initialLanguage = "es"
 
-    const LanguagePage = data
+    const LanguagePage = dataApp
 
     const [language, setLanguage] = useState(initialLanguage)
     const [texto, setTexto] = useState(LanguagePage[language])

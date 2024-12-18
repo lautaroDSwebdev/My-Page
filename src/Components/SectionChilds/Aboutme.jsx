@@ -1,7 +1,9 @@
-import { ArrayTech } from "./Tecnologias"
-import data from '../../ObjectData/globalData.json'
+// import { dataApp } from "../../mock"
 
-const about = data.es.sobreMi
+import { dataApp } from "../../mock/index"
+import Tech from "../../mock/Tecnologias"
+
+const about = dataApp.es.sobreMi
 
 export const Aboutme = () => {
 
@@ -16,7 +18,7 @@ export const Aboutme = () => {
                 <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem]
                     text-titles-section-color">{about.tecnologias}</p>
                 <section className=" grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-center mx-auto  mb-[1rem]  gap-[10px] max-width-container">
-                    {ArrayTech.map(e => (
+                    {Tech.map(e => (
                         <div key={e.id} className="animacionView max flex justify-center flex-col   bg-[#97979f] dimensiones-cajas-tech  rounded-xl shadow-tech">
                             <div className="flex justify-center ">
                                 <img className="ancho-imagenes-tech " src={e.img} />

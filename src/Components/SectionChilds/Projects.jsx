@@ -1,7 +1,7 @@
-import data from '../../ObjectData/globalData.json'
+import { dataApp } from '../../mock/index'
 import '../SectionChilds/stylesProjects.css'
 
-const dataProjects = data.es.proyectos
+const dataProjects = dataApp.es.proyectos
 
 export const Projects = () => {
 

@@ -1,5 +1,5 @@
-import { navbar } from "./dataNav"
-export const Nav = () => {
+import { navbar } from "../dataNav"
+export const NavComponent = () => {
 
     const clickOptions = () => {
         document.querySelector(".nav-mobile").classList.toggle("active")
