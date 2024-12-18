@@ -21,7 +21,7 @@ export const Projects = () => {
                             <article key={e.id} className="animacionView mx-auto md:grid md:grid-cols-3 py-[1rem]   ">
                                 <div className="active md:col-span-2 ">
                                     <a target="_blank" href={e.linkweb}>
-                                        <img className=" md:cursor-pointer transition duration-75 ease-linear w-[350px] mx-auto  max-h-maximoAlto-img " src={e.imagenProyecto} alt="imagen de proyecto" />
+                                        <img className=" md:cursor-pointer px-3 transition duration-75 ease-linear w-[350px] mx-auto  max-h-maximoAlto-img " src={e.imagenProyecto} alt="imagen de proyecto" />
                                     </a>
                                 </div>
                                 <section>
