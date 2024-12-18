@@ -1,6 +1,6 @@
  const ArrayTech = [
   { id: 4355354, tecnologia: "Html", img: "../assets/html.svg" },
-  { id: 435565645354, tecnologia: "Css", img: "../../public/assets/css.svg" },
+  { id: 435565645354, tecnologia: "Css", img: "../assets/css.svg" },
   {
     id: 4355656453555644,
     tecnologia: "JavaScript",
