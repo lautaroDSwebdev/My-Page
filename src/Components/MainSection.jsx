@@ -1,12 +1,12 @@
 
 import { Aboutme, Contact, Projects } from "./SectionChilds/index"
-import json from '../ObjectData/globalData.json'
+import { dataApp } from "../mock/index"
 
 
 export const Main = () => {
 
 
-    const about = json.es.sobreMi
+    const about = dataApp.es.sobreMi
 
     return (
         <>

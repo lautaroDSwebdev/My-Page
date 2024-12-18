@@ -1,7 +1,11 @@
+<<<<<<< HEAD:public/assets/Projects.jsx
 import data from '../ObjectData/globalData.json'
+=======
+import { dataApp } from '../../mock/index'
+>>>>>>> dcf4d9605d9c7f017f99c7743fefee97693ad204:src/Components/SectionChilds/Projects.jsx
 import '../SectionChilds/stylesProjects.css'
 
-const dataProjects = data.es.proyectos
+const dataProjects = dataApp.es.proyectos
 
 export const Projects = () => {
 

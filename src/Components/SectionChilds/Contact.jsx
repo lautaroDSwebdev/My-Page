@@ -3,7 +3,7 @@ import { MdAttachEmail } from "react-icons/md";
 import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
-import data from '../../ObjectData/globalData.json'
+import { dataApp } from "../../mock/index";
 
 export const Contact = () => {
     const schema = yup.object({
@@ -24,7 +24,7 @@ export const Contact = () => {
 
 
 
-    const contactO = data.es.contacto
+    const contactO = dataApp.es.contacto
 
     return (
         <>
