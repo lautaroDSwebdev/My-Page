@@ -53,7 +53,9 @@ export let dataApp = {
       experiencia: "+2 Años de experiencia como Programador Front-End",
       sobremi1: "Convierto ideas en código",
       aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
-      selfie: "../../public/imagenMia.png" 
+      // ../../src/assets/
+      // ../../public/
+      selfie: "../../src/assets/imagenMia.png" 
       
       
       
@@ -65,7 +67,8 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/caprichoso",
         linkweb: "https://caprichoso.netlify.app/home/",
        tituloProyecto: "Caprichoso Portfolio",
-       imagenProyecto: "../../public/Caprichoso.webp",
+       
+       imagenProyecto: "../../src/assets/ets/Caprichoso.webp",
         TechUsada: [
           {
             id: 1,
@@ -90,7 +93,7 @@ export let dataApp = {
         linkRepo: "https://github.com/Otorb/edutech",
         linkweb: "https://edusync-ten.vercel.app/",
        tituloProyecto: "EduSync",
-       imagenProyecto: "../../public/EduSync-logo.webp",
+       imagenProyecto: "../../src/assets/EduSync-logo.webp",
         TechUsada: [
           {
             id: 1,
@@ -119,7 +122,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
        tituloProyecto: "Buscador de cuenta Github",
-       imagenProyecto: "../../public/vista-desktop-mobile-githubsearch.webp",
+       imagenProyecto: "../../src/assets/vista-desktop-mobile-githubsearch.webp",
         TechUsada: [
           {
             id: 1,
@@ -141,7 +144,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/search-country",
         linkweb: "https://search-country-web.netlify.app/#/All",
        tituloProyecto: "Buscador de Paises",
-       imagenProyecto: "../../public/SearchCountry.webp",
+       imagenProyecto: "../../src/assets/SearchCountry.webp",
         TechUsada: [
           {
             id: 1,
@@ -162,7 +165,7 @@ export let dataApp = {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
        tituloProyecto: "Mi Portfolio",
-       imagenProyecto: "../../public/imagen-portfolio-proyecto.webp",
+       imagenProyecto: "../../src/assets/imagen-portfolio-proyecto.webp",
         TechUsada:  [
          {            id: 1,
             nombre: "React"
@@ -183,7 +186,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         linkweb: "https://turismo-espacial-practica-front.netlify.app/",
        tituloProyecto: "Space Turism",
-       imagenProyecto: "../../public/space.webp",
+       imagenProyecto: "../../src/assets/space.webp",
         TechUsada:  [
           {
             id: 1,
@@ -205,7 +208,7 @@ export let dataApp = {
         id: 6,
         linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         tituloProyecto: "Pagina Pizzeria",
-        imagenProyecto: "../../public/frame-crocante.webp",
+        imagenProyecto: "../../src/assets/frame-crocante.webp",
         TechUsada:  [
           {
             id: 1,
@@ -218,7 +221,7 @@ export let dataApp = {
         id: 7,
         linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         tituloProyecto: "Odontología",
-        imagenProyecto: "../../public/frame-odontologia.webp",
+        imagenProyecto: "../../src/assets/frame-odontologia.webp",
         TechUsada: [
           {
             id: 1,
@@ -236,109 +239,108 @@ export let dataApp = {
       placeholdertextarea: "Comentario que desees agregar"
     }
   },
-  "en": {
-    "botonIdioma": "Spanish",
-    "navbar": [
-      {
-        id: 1,
-        navOption: "Home"
-      },
-      {
-        id: 2,
-        navOption: "HardSkills"
-      },
-      {
-        id: 3,
-        navOption: "About Me"
-      },
-      {
-        id: 4,
-        navOption: "Projects"
-      },
-      {
-        id: 5,
-        navOption: "Contact"
-      }
-    ],
-   header: {
-      "saludo": "Hello!",
-      nombre: "I am",
-      "profesion": "Frontend Developer"
-    },
-    "sobreMi": {
-      "titulo": "About Me",
-      "tecnologias": "Technologies",
-      "proveniencia": "I am from Argentina",
-      "ofrezco": "I offer the development of very attractive Landing Pages and Web Applications adapted for mobile and desktop screens with API integration",
-      "experiencia": "2 Years of experience as a Front-End Developer",
-      "sobremi1": "-As a Front-End developer, I turn ideas into code",
-      "sobremi2": "-I am capable of handling any obstacle, challenge, or problem",
-      "oferta": "-I can create attractive, interactive, useful, and professional websites",
-      "busquedalaboralmia": "-I am looking for a serious and long-term job opportunity to grow together, with a team that allows me to continue learning until I can help others",
-      "educacion1": "Complete Secondary School",
-      "educacion2": "Programming and Web Development"
-    },
-    sectionProjects: "Projects",
-    "proyectos": [
-      {
-        id: 1,
-        linkRepo: "https://github.com/Otorb/edutech",
-        linkweb: "https://edusync-ten.vercel.app/",
-       tituloProyecto: "EduSync",
-       imagenProyecto: "",
-        TechUsada: ""
-      },
-      {
-        id: 2,
-        linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
-        linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
-       tituloProyecto: "GitHub Account Searcher",
-       imagenProyecto: "../../assets/EduSync logo.webp",
-        TechUsada: ""
-      },
-      {
-        id: 3,
-        linkRepo: "https://github.com/lautaroDSwebdev/search-country",
-        linkweb: "https://search-country-web.netlify.app/#/All",
-       tituloProyecto: "Country Searcher",
-       imagenProyecto: "../../assets/SearchCountry.webp",
-        TechUsada: ""
-      },
-      {
-        id: 4,
-        linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
-       tituloProyecto: "My Portfolio",
-       imagenProyecto: "../../assets/imagen-portfolio-proyecto.webp",
-        TechUsada: ""
-      },      {        id: 5,
-        linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
-        linkweb: "https://turismo-espacial-practica-front.netlify.app/",
-       tituloProyecto: "Space Tourism",
-       imagenProyecto: "../../assets/space.webp",
-        TechUsada: ""
-      },
-      {
-        id: 6,
-        linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
-        tituloProyecto: "Pizzeria Page",
-        imagenProyecto: "../../assets/frame crocante.webp",
-        "TechUsada": ""
-      },
-      {
-        id: 7,
-        linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
-        tituloProyecto: "Dentistry",
-        imagenProyecto: "../../assets/frame odontologia.webp",
-        TechUsada: ""
-      }
-    ],
-    "contacto": {
-      "Contacto": "Contact",
-      nombre: "First Name",
-      "apellido": "Last Name",
-      "agradecimiento": "Thank you for reaching this far",
-      "enviar": "Send",
-      "placeholdertextarea": "Comment you wish to add"
-    }
-  }
+  // "en": {
+  //   "botonIdioma": "Spanish",
+  //   "navbar": [
+  //     {
+  //       id: 1,
+  //       navOption: "Home"
+  //     },
+  //     {
+  //       id: 2,
+  //       navOption: "HardSkills"
+  //     },
+  //     {
+  //       id: 3,
+  //       navOption: "About Me"
+  //     },
+  //     {
+  //       id: 4,
+  //       navOption: "Projects"
+  //     },
+  //     {
+  //       id: 5,
+  //       navOption: "Contact"
+  //     }
+  //   ],
+  //  header: {
+  //     "saludo": "Hello!",
+  //     nombre: "I am",
+  //     "profesion": "Frontend Developer"
+  //   },
+  //   "sobreMi": {
+  //     "titulo": "About Me",
+  //     "tecnologias": "Technologies",
+  //     "proveniencia": "I am from Argentina",
+  //     "ofrezco": "I offer the development of very attractive Landing Pages and Web Applications adapted for mobile and desktop screens with API integration",
+  //     "experiencia": "2 Years of experience as a Front-End Developer",
+  //     "sobremi1": "-As a Front-End developer, I turn ideas into code",
+  //     "sobremi2": "-I am capable of handling any obstacle, challenge, or problem",
+  //     "oferta": "-I can create attractive, interactive, useful, and professional websites",
+  //     "busquedalaboralmia": "-I am looking for a serious and long-term job opportunity to grow together, with a team that allows me to continue learning until I can help others",
+  //     "educacion1": "Complete Secondary School",
+  //     "educacion2": "Programming and Web Development"
+  //   },
+  //   sectionProjects: "Projects",
+  //   "proyectos": [
+  //     {
+  //       id: 1,
+  //       linkRepo: "https://github.com/Otorb/edutech",
+  //       linkweb: "https://edusync-ten.vercel.app/",
+  //      tituloProyecto: "EduSync",
+  //      imagenProyecto: "../../src/assets/chUsada: ""
+  //     },
+  //     {
+  //       id: 2,
+  //       linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
+  //       linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
+  //      tituloProyecto: "GitHub Account Searcher",
+  //      imagenProyecto: "../../src/assets/EduSync logo.webp",
+  //       TechUsada: ""
+  //     },
+  //     {
+  //       id: 3,
+  //       linkRepo: "https://github.com/lautaroDSwebdev/search-country",
+  //       linkweb: "https://search-country-web.netlify.app/#/All",
+  //      tituloProyecto: "Country Searcher",
+  //      imagenProyecto: "../../src/assets/SearchCountry.webp",
+  //       TechUsada: ""
+  //     },
+  //     {
+  //       id: 4,
+  //       linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
+  //      tituloProyecto: "My Portfolio",
+  //      imagenProyecto: "../../src/assets/imagen-portfolio-proyecto.webp",
+  //       TechUsada: ""
+  //     },      {        id: 5,
+  //       linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
+  //       linkweb: "https://turismo-espacial-practica-front.netlify.app/",
+  //      tituloProyecto: "Space Tourism",
+  //      imagenProyecto: "../../src/assets/space.webp",
+  //       TechUsada: ""
+  //     },
+  //     {
+  //       id: 6,
+  //       linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
+  //       tituloProyecto: "Pizzeria Page",
+  //       imagenProyecto: "../../src/assets/frame crocante.webp",
+  //       "TechUsada": ""
+  //     },
+  //     {
+  //       id: 7,
+  //       linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
+  //       tituloProyecto: "Dentistry",
+  //       imagenProyecto: "../../src/assets/frame odontologia.webp",
+  //       TechUsada: ""
+  //     }
+  //   ],
+  //   "contacto": {
+  //     "Contacto": "Contact",
+  //     nombre: "First Name",
+  //     "apellido": "Last Name",
+  //     "agradecimiento": "Thank you for reaching this far",
+  //     "enviar": "Send",
+  //     "placeholdertextarea": "Comment you wish to add"
+  //   }
+  // }
 }
