@@ -53,7 +53,7 @@ export let dataApp = {
       experiencia: "+2 Años de experiencia como Programador Front-End",
       sobremi1: "Convierto ideas en código",
       aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
-      selfie: "../assets/imagenMia.webp" 
+      selfie: "../assets/imagenMia.png" 
       
       
       
