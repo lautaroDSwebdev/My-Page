@@ -65,7 +65,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/caprichoso",
         linkweb: "https://caprichoso.netlify.app/home/",
        tituloProyecto: "Caprichoso Portfolio",
-       imagenProyecto: "../../src/assets/Caprichoso.webp",
+       imagenProyecto: "../../src/assets/Caprichoso.png",
         TechUsada: [
           {
             id: 1,
@@ -90,7 +90,7 @@ export let dataApp = {
         linkRepo: "https://github.com/Otorb/edutech",
         linkweb: "https://edusync-ten.vercel.app/",
        tituloProyecto: "EduSync",
-       imagenProyecto: "../../src/assets/EduSync-logo.webp",
+       imagenProyecto: "../../src/assets/EduSync-logo.png",
         TechUsada: [
           {
             id: 1,
@@ -119,7 +119,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
        tituloProyecto: "Buscador de cuenta Github",
-       imagenProyecto: "../../src/assets/vista-desktop-mobile-githubsearch.webp",
+       imagenProyecto: "../../src/assets/vista-desktop-mobile-githubsearch.png",
         TechUsada: [
           {
             id: 1,
@@ -141,7 +141,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/search-country",
         linkweb: "https://search-country-web.netlify.app/#/All",
        tituloProyecto: "Buscador de Paises",
-       imagenProyecto: "../../src/assets/SearchCountry.webp",
+       imagenProyecto: "../../src/assets/SearchCountry.png",
         TechUsada: [
           {
             id: 1,
@@ -162,7 +162,7 @@ export let dataApp = {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
        tituloProyecto: "Mi Portfolio",
-       imagenProyecto: "../../src/assets/imagen-portfolio-proyecto.webp",
+       imagenProyecto: "../../src/assets/imagen-portfolio-proyecto.png",
         TechUsada:  [
          {            id: 1,
             nombre: "React"
@@ -183,7 +183,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         linkweb: "https://turismo-espacial-practica-front.netlify.app/",
        tituloProyecto: "Space Turism",
-       imagenProyecto: "../../src/assets/space.webp",
+       imagenProyecto: "../../src/assets/space.png",
         TechUsada:  [
           {
             id: 1,
@@ -205,7 +205,7 @@ export let dataApp = {
         id: 6,
         linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         tituloProyecto: "Pagina Pizzeria",
-        imagenProyecto: "../../src/assets/frame-crocante.webp",
+        imagenProyecto: "../../src/assets/frame-crocante.png",
         TechUsada:  [
           {
             id: 1,
@@ -218,7 +218,7 @@ export let dataApp = {
         id: 7,
         linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         tituloProyecto: "Odontología",
-        imagenProyecto: "../../src/assets/frame-odontologia.webp",
+        imagenProyecto: "../../src/assets/frame-odontologia.png",
         TechUsada: [
           {
             id: 1,
@@ -293,7 +293,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
        tituloProyecto: "GitHub Account Searcher",
-       imagenProyecto: "../../assets/EduSync logo.webp",
+       imagenProyecto: "../../assets/EduSync logo.png",
         TechUsada: ""
       },
       {
@@ -301,34 +301,34 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/search-country",
         linkweb: "https://search-country-web.netlify.app/#/All",
        tituloProyecto: "Country Searcher",
-       imagenProyecto: "../../assets/SearchCountry.webp",
+       imagenProyecto: "../../assets/SearchCountry.png",
         TechUsada: ""
       },
       {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
        tituloProyecto: "My Portfolio",
-       imagenProyecto: "../../assets/imagen-portfolio-proyecto.webp",
+       imagenProyecto: "../../assets/imagen-portfolio-proyecto.png",
         TechUsada: ""
       },      {        id: 5,
         linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         linkweb: "https://turismo-espacial-practica-front.netlify.app/",
        tituloProyecto: "Space Tourism",
-       imagenProyecto: "../../assets/space.webp",
+       imagenProyecto: "../../assets/space.png",
         TechUsada: ""
       },
       {
         id: 6,
         linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         tituloProyecto: "Pizzeria Page",
-        imagenProyecto: "../../assets/frame crocante.webp",
+        imagenProyecto: "../../assets/frame crocante.png",
         "TechUsada": ""
       },
       {
         id: 7,
         linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         tituloProyecto: "Dentistry",
-        imagenProyecto: "../../assets/frame odontologia.webp",
+        imagenProyecto: "../../assets/frame odontologia.png",
         TechUsada: ""
       }
     ],
