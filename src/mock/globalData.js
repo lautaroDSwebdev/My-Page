@@ -55,10 +55,10 @@ export let dataApp = {
       aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
       // ../../src/assets/
       // ../../public/
-      selfie: "../../public/assets/imagenMia.png" 
+      selfie: "../../src/assets/imagenMia.png" 
       
       
-      
+
       
     },
     sectionProjects: "Proyectos",
