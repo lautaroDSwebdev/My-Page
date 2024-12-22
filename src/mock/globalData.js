@@ -54,8 +54,8 @@ export let dataApp = {
       sobremi1: "Convierto ideas en código",
       aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
       // ../../src/assets/
-      // ../../public/
-      selfie: "../../src/assets/imagenMia.png" 
+      // ../../public/asstets/
+      selfie: "../../public/assets/imagenMia.png" 
       
       
 
