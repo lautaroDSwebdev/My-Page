@@ -1,6 +1,6 @@
 // import { dataApp } from "../../mock"
 
-import { dataApp } from "../../mock/index"
+import { dataApp } from "../../mock/Tecnologias"
 import Tech from "../../mock/Tecnologias"
 
 const about = dataApp.es.sobreMi

@@ -55,7 +55,7 @@ export let dataApp = {
       aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
       // ../../src/assets/
       // ../../public/asstets/
-      selfie: "../../public/imagenMia.png" 
+      selfie: "./imagenMia.png" 
       
       
 
@@ -69,7 +69,7 @@ export let dataApp = {
         linkweb: "https://caprichoso.netlify.app/home/",
        tituloProyecto: "Caprichoso Portfolio",
        
-       imagenProyecto: "../../public/Caprichoso.webp",
+       imagenProyecto: "./caprichoso.webp",
         TechUsada: [
           {
             id: 1,
@@ -94,7 +94,7 @@ export let dataApp = {
         linkRepo: "https://github.com/Otorb/edutech",
         linkweb: "https://edusync-ten.vercel.app/",
        tituloProyecto: "EduSync",
-       imagenProyecto: "../../public/EduSync-logo.webp",
+       imagenProyecto: "./EduSync-logo.webp",
         TechUsada: [
           {
             id: 1,
@@ -123,7 +123,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
        tituloProyecto: "Buscador de cuenta Github",
-       imagenProyecto: "../../public/vista-desktop-mobile-githubsearch.webp",
+       imagenProyecto: "./vista-desktop-mobile-githubsearch.webp",
         TechUsada: [
           {
             id: 1,
@@ -145,7 +145,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/search-country",
         linkweb: "https://search-country-web.netlify.app/#/All",
        tituloProyecto: "Buscador de Paises",
-       imagenProyecto: "../../public/SearchCountry.webp",
+       imagenProyecto: "./SearchCountry.webp",
         TechUsada: [
           {
             id: 1,
@@ -166,7 +166,7 @@ export let dataApp = {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
        tituloProyecto: "Mi Portfolio",
-       imagenProyecto: "../../public/imagen-portfolio-proyecto.webp",
+       imagenProyecto: "./imagen-portfolio-proyecto.webp",
         TechUsada:  [
          {            id: 1,
             nombre: "React"
@@ -187,7 +187,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         linkweb: "https://turismo-espacial-practica-front.netlify.app/",
        tituloProyecto: "Space Turism",
-       imagenProyecto: "../../public/space.webp",
+       imagenProyecto: "./space.webp",
         TechUsada:  [
           {
             id: 1,
@@ -209,7 +209,7 @@ export let dataApp = {
         id: 6,
         linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         tituloProyecto: "Pagina Pizzeria",
-        imagenProyecto: "../../public/frame-crocante.webp",
+        imagenProyecto: "./frame-crocante.webp",
         TechUsada:  [
           {
             id: 1,
@@ -222,7 +222,7 @@ export let dataApp = {
         id: 7,
         linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         tituloProyecto: "Odontología",
-        imagenProyecto: "../../public/frame-odontologia.webp",
+        imagenProyecto: "./frame-odontologia.webp",
         TechUsada: [
           {
             id: 1,
@@ -289,14 +289,14 @@ export let dataApp = {
   //       linkRepo: "https://github.com/Otorb/edutech",
   //       linkweb: "https://edusync-ten.vercel.app/",
   //      tituloProyecto: "EduSync",
-  //      imagenProyecto: "../../public/chUsada: ""
+  //      imagenProyecto: "./chUsada: ""
   //     },
   //     {
   //       id: 2,
   //       linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
   //       linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
   //      tituloProyecto: "GitHub Account Searcher",
-  //      imagenProyecto: "../../public/EduSync logo.webp",
+  //      imagenProyecto: "./EduSync logo.webp",
   //       TechUsada: ""
   //     },
   //     {
@@ -304,34 +304,34 @@ export let dataApp = {
   //       linkRepo: "https://github.com/lautaroDSwebdev/search-country",
   //       linkweb: "https://search-country-web.netlify.app/#/All",
   //      tituloProyecto: "Country Searcher",
-  //      imagenProyecto: "../../public/SearchCountry.webp",
+  //      imagenProyecto: "./SearchCountry.webp",
   //       TechUsada: ""
   //     },
   //     {
   //       id: 4,
   //       linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
   //      tituloProyecto: "My Portfolio",
-  //      imagenProyecto: "../../public/imagen-portfolio-proyecto.webp",
+  //      imagenProyecto: "./imagen-portfolio-proyecto.webp",
   //       TechUsada: ""
   //     },      {        id: 5,
   //       linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
   //       linkweb: "https://turismo-espacial-practica-front.netlify.app/",
   //      tituloProyecto: "Space Tourism",
-  //      imagenProyecto: "../../public/space.webp",
+  //      imagenProyecto: "./space.webp",
   //       TechUsada: ""
   //     },
   //     {
   //       id: 6,
   //       linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
   //       tituloProyecto: "Pizzeria Page",
-  //       imagenProyecto: "../../public/frame crocante.webp",
+  //       imagenProyecto: "./frame crocante.webp",
   //       "TechUsada": ""
   //     },
   //     {
   //       id: 7,
   //       linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
   //       tituloProyecto: "Dentistry",
-  //       imagenProyecto: "../../public/frame odontologia.webp",
+  //       imagenProyecto: "./frame odontologia.webp",
   //       TechUsada: ""
   //     }
   //   ],
