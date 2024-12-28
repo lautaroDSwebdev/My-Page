@@ -8,7 +8,7 @@ function App() {
       <ComponentContext>
           <NavComponent />
           <Header />
-          <Aboutme />
+          
           <Main />
           <Projects />
           <Contact />
