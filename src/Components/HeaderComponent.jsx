@@ -2,19 +2,12 @@ import { FiGithub } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa6";
 import { FaUserGraduate } from "react-icons/fa6";
 import { dataApp } from "../mock/index";
-import {  NavComponent } from "./SectionChilds/Nav";
 export const Header = () => {
-
 
   const Head = dataApp.es.header,
     mySocialMedia = dataApp.es.InfoSocialMedia
-
-
-  // const { texto } = useContext(ContextoGlobal)
-
   return (
     <header id="inicio" className="bg-yoCodeando bg-fixed  bg-no-repeat bg-center  relative top-[-2rem]  bg-cover h-[104dvh] ">
-      <NavComponent />
       <div
         className="animationWelcome absolute z-index-menor  top-[6rem] flex justify-center flex-wrap content-center flex-col m-auto w-full   h-[81dvh]">
 
@@ -29,15 +22,7 @@ export const Header = () => {
         </div>
         <div>
           <h2 className="es    flex flex-row flex-wrap content-center justify-center text-[8vw] md:text-[3rem]  vlg:text-[3.7rem]">
-            <b className="flex flex-wrap content-center  ">
-
-            </b>
-
             {Head.profesion}
-
-            <b className="flex flex-wrap content-center">
-
-            </b>
           </h2>
 
 

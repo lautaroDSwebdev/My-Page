@@ -69,7 +69,7 @@ export let dataApp = {
         linkweb: "https://caprichoso.netlify.app/home/",
        tituloProyecto: "Caprichoso Portfolio",
        
-       imagenProyecto: "./caprichoso.webp",
+       imagenProyecto: "./Caprichoso.webp",
         TechUsada: [
           {
             id: 1,

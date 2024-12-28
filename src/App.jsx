@@ -1,30 +1,19 @@
 
-import { Header, Main , NavMobile } from './Components/index'
+import { Header, Main, NavMobile } from './Components/index'
 import { gsap } from "gsap"
 import ComponentContext from './context/ComponentContext'
+import { Aboutme, Contact, NavComponent, Projects } from './Components/SectionChilds'
 function App() {
-
-  const NavBar = () => {
-    document.querySelector(".nav-mobile").classList.toggle("active")
-  }
-
-  
   return (
-    <>
-
       <ComponentContext>
-
-        <div className="father-component">
-
+          <NavComponent />
           <Header />
+          <Aboutme />
           <Main />
-          <NavMobile/>
-        </div>
+          <Projects />
+          <Contact />
+          <NavMobile />
       </ComponentContext>
-
-    </>
-
-
   )
 }
 

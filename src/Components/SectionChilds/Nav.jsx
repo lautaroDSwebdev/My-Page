@@ -8,10 +8,10 @@ export const NavComponent = () => {
         <>
             <div>
                 <nav className=" fixed bg-[#0d0a0ad9] w-full hidden md:block mx-auto z-index-sup  alturaNav   ">
-                    <div className=" flex flex-row flex-wrap h-[7rem] mx-auto items-center justify-around max-width-container ">
+                    <div className=" flex flex-row flex-wrap h-[4rem] mx-auto items-center justify-around max-width-container ">
                         {
                             navbar.map(e => (
-                                <div key={e.id} className=" pt-[1rem] div-nav1">
+                                <div key={e.id} className="  div-nav1">
                                     <a className="navAnimation cursor-pointer
                                         NavPresentacion 
                                         hover:text-[#dddcdc]   

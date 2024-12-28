@@ -32,14 +32,13 @@ div {
 .bg-yoCodeando {
   /* por si quiero usar el fondo, queda guardado este */
   /* background-image: url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
-  background-image: url('../public/backgroundHeader.webp');
-}
-.father-component {
-  margin: 0;
-  font-size: 16px;
-  color: #fff;
+  background-image: url('./backgroundHeader.webp');
 }
 
+
+a , p, h2, h1, h5, h6, h3, h4, b {
+  color: #fff;
+}
 /* interaccion con el nav bar mobile */
 .nav-mobile {
   visibility: hidden;

@@ -13,7 +13,6 @@ export const Projects = () => {
                     className="lg:pt-[5rem] pt-[2rem]  font-bold tracking-[5px]  text-[2rem] md:text-[3rem] text-titles-section-color">
                     Proyectos</h2>
             </div>
-            {/* bg-box-sections-bgcolor shadow-tech-desk  h-[187rem] md:h-[105rem] rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container */}
             <section className=" bg-box-sections-bgcolor shadow-tech-desk   rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container">
                 <article className="  relative top-[5px]  ">
                     {
