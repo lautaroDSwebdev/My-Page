@@ -76,6 +76,10 @@ export let dataApp = {
             nombre: "React js"
           },
           {
+            id: 87,
+            nombre: "Redux Toolkit"
+          },
+          {
             id: 5,
             nombre: "CSS"
           },
