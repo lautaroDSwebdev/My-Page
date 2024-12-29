@@ -17,6 +17,8 @@
     img: "./tailwind.svg",
   },
   { id: 43545354, tecnologia: "Sass", img: "./sass.svg" },
+  {id: 35665765, tecnologia: "Java", img: "./java.svg"},
+  {id: 9856757, tecnologia: "SpringBoot", img: "./springboot.svg"},
   { id: 343435565645354, tecnologia: "Git", img: "./git.svg" },
 
   { id: 4355656345354, img: "./figma.svg", tecnologia: "Figma" },
