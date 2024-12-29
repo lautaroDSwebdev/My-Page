@@ -65,10 +65,36 @@ export let dataApp = {
     proyectos: [
       {
         id: 0,
+        linkRepo: "https://github.com/lautaroDSwebdev/farmacia_replica",
+        linkweb: "https://masfarmaciareplica.netlify.app/",
+       tituloProyecto: "Mas Farmacias replica",
+       en_proceso: true,
+       imagenProyecto: "./farmacia.webp",
+        TechUsada: [
+          {
+            id: 1,
+            nombre: "React js"
+          },
+          {
+            id: 5,
+            nombre: "CSS"
+          },
+          {
+            id: 7,
+            nombre: "Typescript"
+          },
+          {
+            id: 8,
+            nombre: "Tailwind"
+          }
+        ]
+      },
+      {
+        id: 0,
         linkRepo: "https://github.com/lautaroDSwebdev/caprichoso",
         linkweb: "https://caprichoso.netlify.app/home/",
        tituloProyecto: "Caprichoso Portfolio",
-       
+       en_proceso: false,
        imagenProyecto: "./Caprichoso.webp",
         TechUsada: [
           {
@@ -94,11 +120,12 @@ export let dataApp = {
         linkRepo: "https://github.com/Otorb/edutech",
         linkweb: "https://edusync-ten.vercel.app/",
        tituloProyecto: "EduSync",
+       en_proceso: false,
        imagenProyecto: "./EduSync-logo.webp",
         TechUsada: [
           {
             id: 1,
-            nombre: "React"
+            nombre: "React js"
           },
           {
             id: 5,
@@ -123,11 +150,12 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/prueba-tecnica-buscadorPerfilGitHub",
         linkweb: "https://prueba-tecnica-lautaro.netlify.app/",
        tituloProyecto: "Buscador de cuenta Github",
+       en_proceso: false,
        imagenProyecto: "./vista-desktop-mobile-githubsearch.webp",
         TechUsada: [
           {
             id: 1,
-            nombre: "React"
+            nombre: "React js"
           },
           {
             id: 2,
@@ -145,11 +173,12 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/search-country",
         linkweb: "https://search-country-web.netlify.app/#/All",
        tituloProyecto: "Buscador de Paises",
+       en_proceso: false,
        imagenProyecto: "./SearchCountry.webp",
         TechUsada: [
           {
             id: 1,
-            nombre: "React"
+            nombre: "React js"
           },
           {
             id: 4,
@@ -169,7 +198,7 @@ export let dataApp = {
        imagenProyecto: "./imagen-portfolio-proyecto.webp",
         TechUsada:  [
          {            id: 1,
-            nombre: "React"
+            nombre: "React js"
           },
           {
             id: 2,
@@ -187,6 +216,7 @@ export let dataApp = {
         linkRepo: "https://github.com/lautaroDSwebdev/proyecto-turismo-espacial",
         linkweb: "https://turismo-espacial-practica-front.netlify.app/",
        tituloProyecto: "Space Turism",
+       en_proceso: false,
        imagenProyecto: "./space.webp",
         TechUsada:  [
           {
@@ -209,6 +239,7 @@ export let dataApp = {
         id: 6,
         linkweb: "https://lautarodisalvosmco.wixsite.com/prueba1smc",
         tituloProyecto: "Pagina Pizzeria",
+        en_proceso: false,
         imagenProyecto: "./frame-crocante.webp",
         TechUsada:  [
           {
@@ -222,6 +253,7 @@ export let dataApp = {
         id: 7,
         linkweb: "https://lautarodisalvosmco.wixsite.com/farmacia-centrosalud",
         tituloProyecto: "Odontología",
+        en_proceso: false,
         imagenProyecto: "./frame-odontologia.webp",
         TechUsada: [
           {

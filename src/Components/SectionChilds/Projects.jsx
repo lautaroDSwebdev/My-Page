@@ -27,6 +27,9 @@ export const Projects = () => {
                                     <div className="">
                                         <p className="title_project">{e.tituloProyecto}</p>
                                     </div>
+
+                                    <i className='text-[#2e4cf8] font-bold text-[30px] flex justify-center'>{e.en_proceso ? "En proceso" : ""}</i>
+
                                     <div className="flex justify-center flex-row  flex-wrap gap-3 h-auto w-auto">
                                         {e.TechUsada.map(e =>
                                             <p key={e.id} className="bg-[#97979f] rounded-xl p-2 text-center text-[#fff] text-[1rem]">{e.nombre}</p>
