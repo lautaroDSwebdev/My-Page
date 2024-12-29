@@ -30,7 +30,7 @@ export const Projects = () => {
                                         </div>
                                     </a>
 
-                                    <i className='text-[#a1aceb] font-bold text-[30px] flex justify-center'>{e.en_proceso ? "En proceso" : ""}</i>
+                                    <i className='text-[#a1aceb] font-bold text-[20px] flex justify-center'>{e.en_proceso ? "En proceso" : ""}</i>
 
                                     <div className="flex justify-center flex-row  flex-wrap gap-3 h-auto w-auto">
                                         {e.TechUsada.map(e =>
