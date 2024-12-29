@@ -3,7 +3,7 @@
   // ../../public/
   { id: 4355354, tecnologia: "Html", img: "./html.svg" },
   { id: 435565645354, tecnologia: "Css", img: "./css.svg" },
-  {id: 8765465,tecnologia: "Next Js", img: "./icono-next.svg"},
+  {id: 8765465, tecnologia: "Next Js", img: "./icono-next.svg"},
   {
     id: 4355656453555644,
     tecnologia: "JavaScript",
