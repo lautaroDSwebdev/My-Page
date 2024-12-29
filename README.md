@@ -1,4 +1,4 @@
 # My-Page
-This is my personal landing page- on construction right now
+This is my personal landing page
 
-![imagen-portfolio-proyecto](https://github.com/Lautaro-Di-Salvo-Code/My-Page/assets/140952562/7e817a2d-3b85-40f3-8f09-5d081a0d10a3)
+![portfolio2025](https://github.com/user-attachments/assets/844cd247-7367-4859-9e94-b138d897b83d)
