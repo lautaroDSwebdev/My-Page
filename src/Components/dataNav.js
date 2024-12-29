@@ -6,14 +6,14 @@ export const navbar = [
     },
   
     {
-      id: 2,
-      href: "#sobremi",
-      navOption: "Sobre Mi"
-    },
-    {
       id: 3,
       href: "#proyectos",
       navOption: "Proyectos"
+    },
+    {
+      id: 2,
+      href: "#sobremi",
+      navOption: "Sobre Mi"
     },
     {
       id: 4,

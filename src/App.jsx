@@ -9,8 +9,8 @@ function App() {
           <NavComponent />
           <Header />
           
-          <Main />
           <Projects />
+          <Main />
           <Contact />
           <NavMobile />
       </ComponentContext>
