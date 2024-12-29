@@ -13,7 +13,7 @@ export const Projects = () => {
                     className="lg:pt-[5rem] pt-[2rem]  font-bold tracking-[5px]  text-[2rem] md:text-[3rem] text-titles-section-color">
                     Proyectos</h2>
             </div>
-            <section className=" bg-box-sections-bgcolor shadow-tech-desk   rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container">
+            <section className=" blue-light-bg shadow-tech-desk   rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container">
                 <article className="  relative top-[5px]  ">
                     {
                         dataProjects.map(e => (
@@ -24,22 +24,24 @@ export const Projects = () => {
                                     </a>
                                 </div>
                                 <section>
-                                    <div className="">
-                                        <p className="title_project">{e.tituloProyecto}</p>
-                                    </div>
+                                    <a target="_blank" href={e.linkweb}>
+                                        <div className="">
+                                            <p className="title_project">{e.tituloProyecto}</p>
+                                        </div>
+                                    </a>
 
-                                    <i className='text-[#2e4cf8] font-bold text-[30px] flex justify-center'>{e.en_proceso ? "En proceso" : ""}</i>
+                                    <i className='text-[#a1aceb] font-bold text-[30px] flex justify-center'>{e.en_proceso ? "En proceso" : ""}</i>
 
                                     <div className="flex justify-center flex-row  flex-wrap gap-3 h-auto w-auto">
                                         {e.TechUsada.map(e =>
-                                            <p key={e.id} className="bg-[#97979f] rounded-xl p-2 text-center text-[#fff] text-[1rem]">{e.nombre}</p>
+                                            <p key={e.id} className="blue-bg-very-strong rounded-xl p-2 text-center text-[#fff] text-[1rem]">{e.nombre}</p>
                                         )}
                                     </div>
                                     <div className=" m-4 flex justify-evenly gap-1 ">
                                         {
                                             e.linkweb ?
                                                 <a target="_blank" href={e.linkweb}
-                                                    className="a_links"
+                                                    className="buttons"
 
                                                 >web</a>
                                                 : ""
@@ -48,7 +50,7 @@ export const Projects = () => {
                                             e.linkRepo ?
                                                 <a target="_blank"
                                                     href={e.linkRepo}
-                                                    className="a_links">codigo</a>
+                                                    className="buttons">codigo</a>
                                                 : ""
                                         }
 

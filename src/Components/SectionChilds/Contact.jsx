@@ -37,7 +37,7 @@ export const Contact = () => {
             </div>
 
             <section className="animacionView my-margin-secciones-global md:grid md:grid-cols-2 mt-[1rem]
-            mb-[6rem] bg-box-sections-bgcolor rounded-xl mx-[1rem] md:mx-auto p-[1rem] 
+            mb-[6rem] blue-light-bg rounded-xl mx-[1rem] md:mx-auto p-[1rem] 
             max-width-container box-shadow-form">
 
                 <div className=" md:grid md:place-items-center">
@@ -58,7 +58,7 @@ export const Contact = () => {
 
                                         <a href="https://api.whatsapp.com/send?phone=5492494379804" target="_blank">
 
-                                            <FaWhatsapp className="h-auto w-[3rem] drop-shadow-2xl text-[#636363]" />
+                                            <FaWhatsapp className="h-auto w-[3rem] drop-shadow-2xl text-[#45e753]" />
                                         </a>
                                     </div>
                                 </div>
@@ -67,7 +67,7 @@ export const Contact = () => {
                                     <div className="flex justify-center ">
                                         <a href="mailto:lautarodisalvo5@gmail.com">
 
-                                            <MdAttachEmail className="h-auto w-[3rem] drop-shadow-2xl text-[#636363]" />
+                                            <MdAttachEmail className="h-auto w-[3rem] drop-shadow-2xl text-[#f73e3e]" />
                                         </a>
                                     </div>
                                 </div>
@@ -77,18 +77,18 @@ export const Contact = () => {
                 </div>
                 <form onSubmit={handleSubmit(onSubmit)} action="https://formspree.io/f/xzbnapnk" method="POST" className="flex flex-col justify-center">
 
-                    <input className="claseTexto bg-box-sections-bgcolor focus:bg-[#ededed] p-[1rem] placeholder:text-[#000]"
+                    <input className="claseTexto form-inputs-style  p-[1rem] "
                         type="text" name="last name" id="last name" {...register("nombreYapellido")} placeholder={contactO.nombreYapellido} />
                     <i className="text-[#e72d2d] text-center " >{errors?.nombreYapellido?.message && "Ingrese su nombre y apellido ❗"}</i>
 
-                    <input className="claseEmail bg-box-sections-bgcolor focus:bg-[#ededed] p-[1rem] placeholder:text-[#000]"
+                    <input className="claseEmail form-inputs-style  p-[1rem] "
                         type="email" name="email" id="email" {...register("email")} placeholder="Email" />
                     <p className="text-[#e72d2d] text-center ">{errors?.email?.message && "Ingresar email ❗"}</p>
 
-                    <input className="claseTel bg-box-sections-bgcolor focus:bg-[#ededed] p-[1rem] placeholder:text-[#000]"
+                    <input className="claseTel form-inputs-style  p-[1rem] "
                         type="tel" name="number" id="number" {...register("celular")} placeholder="Celular" />
                     <p className="text-[#e72d2d] text-center ">{errors?.celular?.message && "Ingresa tu celular ❗"}</p>
-                    <textarea className="claseTextArea bg-box-sections-bgcolor h-[150px] min-h-[140px]  p-[1rem] focus:bg-[#ededed] placeholder:text-[#000]"
+                    <textarea className="claseTextArea form-inputs-style h-[150px] min-h-[140px]  p-[1rem]  "
                         name="message" id="message" cols="30" rows="10"
                         {...register("contactarmePara")}
                         placeholder={contactO.razonContacto}
@@ -97,7 +97,7 @@ export const Contact = () => {
 
                     <p className="text-[#e72d2d] text-center ">{errors.contactarmePara?.message && "Pon la razon para colaborar, por favor"}</p>
 
-                    <button onClick={Submited} type="submit" className=" text-[#2f2e2e] hover:bg-[#ededed] p-2  w-fit mx-auto  h-fit ">{contactO.enviar}</button>
+                    <button onClick={Submited} type="submit" className=" form-inputs-style buttons p-2  w-fit mx-auto  h-fit ">{contactO.enviar}</button>
                 </form>
 
             </section>

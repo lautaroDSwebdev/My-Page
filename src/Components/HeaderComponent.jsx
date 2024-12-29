@@ -30,17 +30,17 @@ export const Header = () => {
 
         <div className="">
           <section className=" flex    flex-row justify-evenly gap-[1rem] pt-[6rem] md:pt-[2rem]">
-            <div className="animations_icons  md:hover:scale-105 rounded-full bg-[#232222] hover:bg-[#454343] ">
+            <div className="animations_icons  md:hover:scale-105 rounded-full blue-bg-very-strong hover:bg-[#454343] ">
               <a target="_blank" href={mySocialMedia.urlGithub}>
                 <FiGithub className="text-[3.5rem] p-3" />
               </a>
             </div>
-            <div className="animations_icons md:hover:scale-105  rounded-full bg-[#232222] hover:bg-[#454343] ">
+            <div className="animations_icons md:hover:scale-105  rounded-full blue-bg-very-strong hover:bg-[#454343] ">
               <a target="_blank" href={mySocialMedia.urlLinkedin}>
                 <FaLinkedinIn className="text-[3.5rem] p-3" />
               </a>
             </div>
-            <div className="animations_icons md:hover:scale-105  rounded-full bg-[#232222] hover:bg-[#454343]">
+            <div className="animations_icons md:hover:scale-105  rounded-full blue-bg-very-strong hover:bg-[#454343]">
               <a href={mySocialMedia.urlCV2024} target="_blank"
               >
                 <FaUserGraduate className="text-[3.5rem] p-3" />
