@@ -181,7 +181,7 @@ export let dataApp = {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
        tituloProyecto: "Mi Portfolio",
-       imagenProyecto: "./imagen-portfolio-proyecto.webp",
+       imagenProyecto: "./portfolio2025.webp",
         TechUsada:  [
          {            id: 1,
             nombre: "React js"
