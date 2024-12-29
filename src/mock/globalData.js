@@ -79,11 +79,7 @@ export let dataApp = {
             id: 87,
             nombre: "Redux Toolkit"
           },
-          {
-            id: 5,
-            nombre: "CSS"
-          },
-          {
+           {
             id: 7,
             nombre: "Typescript"
           },
@@ -104,10 +100,6 @@ export let dataApp = {
           {
             id: 1,
             nombre: "Astro"
-          },
-          {
-            id: 5,
-            nombre: "CSS"
           },
           {
             id: 7,
@@ -131,11 +123,7 @@ export let dataApp = {
             id: 1,
             nombre: "React js"
           },
-          {
-            id: 5,
-            nombre: "CSS"
-          },
-          {
+                    {
             id: 6,
             nombre: "Node Js"
           },
@@ -161,10 +149,7 @@ export let dataApp = {
             id: 1,
             nombre: "React js"
           },
-          {
-            id: 2,
-            nombre: "CSS"
-          },
+         
           {
             id: 3,
             nombre: "Api Github"
@@ -188,10 +173,7 @@ export let dataApp = {
             id: 4,
             nombre: "Tailwind"
           },
-          {
-            id: 5,
-            nombre: "Css"
-          }
+          
         
         ]
       },
