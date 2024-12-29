@@ -17,6 +17,8 @@ html {
 }
 .blue-light-bg{
   background-color: #3E5879;
+  background: rgb(87,124,172);
+  background: radial-gradient(circle, rgb(72, 101, 139) 56%, rgba(33,47,66,1) 100%);
 }
 .blue-bg-very-strong{
   background-color: #2f4057;

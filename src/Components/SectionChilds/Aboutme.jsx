@@ -14,7 +14,7 @@ export const Aboutme = () => {
                     className="my-[2rem] text-tamaño-letra-titulosDeSecciones font-bold tracking-[5px] md:text-[3rem]  text-titles-section-color">
                     {about.titulo}</h2>
             </div>
-            <article className="w-full   rounded-3xl  ">
+            <article className="w-full rounded-3xl  ">
                 <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem]
                     text-titles-section-color">{about.tecnologias}</p>
                 <section className=" grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-center mx-auto  mb-[1rem]  gap-[10px] max-width-container">
