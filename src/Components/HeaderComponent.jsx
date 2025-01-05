@@ -5,7 +5,7 @@ import { dataApp } from "../mock/index";
 export const Header = () => {
 
   const Head = dataApp.es.header,
-    mySocialMedia = dataApp.es.InfoSocialMedia
+    {InfoSocialMedia} = dataApp.es
   return (
     <header id="inicio" className="bg-yoCodeando bg-fixed  bg-no-repeat bg-center  relative top-[-2rem]  bg-cover h-[104dvh] ">
       <div
@@ -31,17 +31,17 @@ export const Header = () => {
         <div className="">
           <section className=" flex    flex-row justify-evenly gap-[1rem] pt-[6rem] md:pt-[2rem]">
             <div className="animations_icons  md:hover:scale-105 rounded-full blue-bg-very-strong hover:bg-[#454343] ">
-              <a target="_blank" href={mySocialMedia.urlGithub}>
+              <a target="_blank" href={InfoSocialMedia.urlGithub}>
                 <FiGithub className="text-[3.5rem] p-3" />
               </a>
             </div>
             <div className="animations_icons md:hover:scale-105  rounded-full blue-bg-very-strong hover:bg-[#454343] ">
-              <a target="_blank" href={mySocialMedia.urlLinkedin}>
+              <a target="_blank" href={InfoSocialMedia.urlLinkedin}>
                 <FaLinkedinIn className="text-[3.5rem] p-3" />
               </a>
             </div>
             <div className="animations_icons md:hover:scale-105  rounded-full blue-bg-very-strong hover:bg-[#454343]">
-              <a href={mySocialMedia.urlCV2024} target="_blank"
+              <a href={InfoSocialMedia.urlCV2025} target="_blank"
               >
                 <FaUserGraduate className="text-[3.5rem] p-3" />
               </a>
