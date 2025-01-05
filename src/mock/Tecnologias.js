@@ -10,13 +10,13 @@ const ArrayTech = [
   { id: 43556564345354, tecnologia: 'React Js', img: './react.svg' },
   { id: 8765465, tecnologia: 'Next Js', img: './icono-next.svg' },
   { id: 6555565, tecnologia: 'Astro Js', img: './Astro.svg' },
+  {  id: 43653453453504, tecnologia: 'ReduxToolkit', img: './iconoRedux.svg' },
+  { id: 34576656453504, tecnologia: 'ReactQuery', img: './iconoReactQ.svg' },
   { id: 35665765, tecnologia: 'Java', img: './Java.svg' },
   { id: 9856757, tecnologia: 'SpringBoot', img: './springboot.svg' },
   { id: 343435565645354, tecnologia: 'Git', img: './git.svg' },
   { id: 4355656345354, img: './figma.svg', tecnologia: 'Figma' },
   { id: 4355656453504, img: './wix.svg' },
-  {  id: 43653453453504, tecnologia: 'ReduxToolkit', img: './iconoRedux.svg' },
-  { id: 34576656453504, tecnologia: 'ReactQuery', img: './iconoReactQ.svg' },
   {  id: 845345656453504, tecnologia: 'Firebase', img: './iconoFirebase.svg'}
 ]
 export default ArrayTech
