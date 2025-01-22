@@ -38,7 +38,7 @@ export let dataApp = {
         nombreWahstapp: "whatsapp",
         urlmail: "mailto:lautarodisalvo5@gmail.com",
         nombreMail: "mail",
-        urlCV2025: "https://drive.google.com/file/d/1GW3xw2L6SKveaB4MD8r8pzHolls3frKO/view?usp=sharing",
+        urlCV2025: "https://drive.google.com/file/d/1D0C_KZl5nhK-E6w8YRMUOwhW9wLBdyfp/view?usp=drive_link",
         nombreDriveCV: "mail"
     },
       mail: "Mail",
