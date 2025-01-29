@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+
+:root{
+  --bg-darkblue: #212f42;
+  --darkblue_for_little_details: #2f4057;
+} 
+
 /* global classes */
 html {
   margin: 0;
@@ -9,28 +15,28 @@ html {
   scrollbar-width: thin;
   scroll-behavior: smooth;
   background: #cfcaca;
-  background-color: #213555;
+  background-color: var(--bg-darkblue);
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: radial-gradient(circle, rgb(92, 128, 175) 15%, rgba(33,47,66,1) 72%);
+  background: radial-gradient(circle, rgb(92, 128, 175) 15%, #212f42 72%);
   background-attachment: fixed;
 }
 
 
 .blue_strong-bg{
-  background-color: #213555;
+  background-color: var(--bg-darkblue);
 }
 .blue-light-bg{
   background-color: #3E5879;
   background: rgb(87,124,172);
-  background: radial-gradient(circle, rgb(53, 74, 102) 15%, rgba(33,47,66,1) 42%);
+  background: radial-gradient(circle, rgb(53, 74, 102) 15%, #212f42 42%);
   background-attachment: fixed;
 }
 .blue-bg-very-strong{
-  background-color: #2f4057;
+  background-color: var(--darkblue_for_little_details);
 }
 
 .form-inputs-style{
-  background-color: #2f4057;
+  background-color: var(--darkblue_for_little_details);
   color: #F5EFE7;
   &::placeholder{
     color: #F5EFE7;
@@ -321,3 +327,16 @@ button {
       }
   }
 
+.title_aboutme{
+  padding: 20px 0;
+  font-size: 3rem;
+  /* background-color: red; */
+  font-weight: 900;
+  background: linear-gradient(146deg, #f9f9f9, #4c00fc);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-stroke: #ffffff 1px;
+}

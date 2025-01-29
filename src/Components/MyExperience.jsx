@@ -1,5 +1,5 @@
 
-import { Aboutme} from "./SectionChilds/index"
+import { Aboutme } from "./SectionChilds/index"
 import { dataApp } from "../mock/index"
 
 
@@ -11,23 +11,25 @@ export const Main = () => {
     return (
         <>
             <section id="sobremi" className=" lg:pt-[5rem] pt-[1rem] px-5 my-margin-secciontexto-global ">
-            <Aboutme />
+                <Aboutme />
                 <article
                     className="animacionView box-shadow-aboutme rounded-[2.4rem] blue-light-bg mx-auto w-full md:mx-auto relative top-[5rem]  mb-[13rem] max-width-container ">
 
                     <div className="mx-auto  w-full md:grid md:grid-cols-3 ">
 
                         <article className=" flex justify-center p-[23px] md:p-[1.6rem] w-full  text-center md:col-span-2">
-                            <p className="text-[1.2rem] md:text-[24px] texts-white  leading-8   font-semibold">
-                                <b className="w-full text-[2rem]    md:text-[2rem] " aria-description={about.experiencia}>
-                                    {about.experiencia}</b>
-                                <br />
-                                <br />
-                                {about.aprendoYmejoro}
-                                <br />
-                                <br />
-                                {about.aprendoYmejoro2}
-                            </p>
+                            <div className="text-[1.2rem] md:text-[24px] w-[700px] texts-white  leading-8 flex flex-col gap-[2rem]  font-semibold">
+                                <h3 className="w-full  title_aboutme" aria-description={about.experiencia}>  {about.experiencia}</h3>
+                                {/* Actualmente soy un estudioso y apasionado desarrollador frontend que le encanta colaborar con otros desarrolladores u orientar a nuevos en este frustrante y opinionado camino, es muy reconfortante recibir feedback tanto de mi agilidad tecnica como de mi persona, es por eso que sigo mejorando y ayudando a mas gente con mucho cariño */}
+                                <b className="leading-[30px] tracking-[2px]">Queriendo encontrar un rumbo en mi vida luego de abordar algunas carreras que me desinteresaban, opté por convertirme en programador debido a mi cercania por las computadoras y mi gusto por las matematicas, por lo cual elegí orientarme por <i className="text-[#dbf537]">Programacion Web</i> en el año 2022.</b>
+
+                                <b className="leading-[30px] tracking-[2px]"> Actualmente soy un estudioso y apasionado <i className="text-[#dbf537]">Desarrollador</i>   que le encanta colaborar con otros desarrolladores y orientar a nuevos en este frustrante pero lindo camino</b>
+                                <b className="leading-[30px] tracking-[2px]">Me es muy reconfortante explicar algo que domino a alguien principiante, es por eso que sigo mejorando y ayudando a mas gente con mucho cariño</b>
+                                <p className="leading-[30px] tracking-[2px]"></p>
+                                <p className="leading-[30px] tracking-[2px]"></p>
+                                <p className="leading-[30px] tracking-[2px]"></p>
+
+                            </div>
                         </article>
                         <article className="flex justify-center flex-wrap py-[25px] content-center flex-grow">
                             <img className="  my_selfie_style "

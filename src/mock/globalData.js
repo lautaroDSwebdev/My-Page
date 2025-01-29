@@ -49,10 +49,10 @@ export let dataApp = {
       titulo: "Sobre Mí",
       tecnologias: "Tecnologias",
       proveniencia: "Soy de Argentina",
-      aprendoYmejoro: "Aprendo y supero nuevos retos semanalmente y analizo cómo mejoran mis habilidades a través de ellos.",
+      aprendoYmejoro: "",
       experiencia: "+2 Años de experiencia como Programador Front-End",
-      sobremi1: "Convierto ideas en código",
-      aprendoYmejoro2: "Constantemente mejoro mis habilidades de código practicando semanalmente. También le doy mucha importancia a mis habilidades blandas, busco la mejora constante en ellas.",
+      sobremi1: "",
+      porqueSigo: "Queriendo encontrar un rumbo en mi vida luego de abordar algunas carreras, opté por la programacion y elegí orientarme por el desarrollo web en el año 2022. Actualmente soy un estudioso y apasionado desarrollador frontend que le encanta colaborar con otros desarrolladores u orientar a nuevos en este frustrante y opinionado camino, es muy reconfortante recibir feedback tanto de mi agilidad tecnica como de mi persona, es por eso que sigo mejorando y ayudando a mas gente con mucho cariño  ",
       // ../../src/assets/
       // ../../public/asstets/
       selfie: "./mi-selfie2025.png" 

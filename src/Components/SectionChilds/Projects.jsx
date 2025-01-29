@@ -14,7 +14,7 @@ export const Projects = () => {
                     Proyectos</h2>
             </div>
             <section className=" blue-light-bg shadow-tech-desk   rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container">
-                <article className="  relative top-[5px]  ">
+                <article className="  relative top-[5px]   ">
                     {
                         dataProjects.map(e => (
                             <article key={e.id} className="animacionView mx-auto md:grid md:grid-cols-3 py-[1rem]   ">
