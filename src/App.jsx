@@ -1,8 +1,8 @@
 
-import { Header, Main, NavMobile } from './Components/index'
+import { Header, Main } from './Components/index'
 import { gsap } from "gsap"
 import ComponentContext from './context/ComponentContext'
-import { Aboutme, Contact, NavComponent, Projects } from './Components/SectionChilds'
+import {  Contact, NavComponent, MobileBar, Projects } from './Components/SectionChilds'
 function App() {
   return (
       <ComponentContext>
@@ -12,7 +12,7 @@ function App() {
           <Projects />
           <Main />
           <Contact />
-          <NavMobile />
+          <MobileBar />
       </ComponentContext>
   )
 }

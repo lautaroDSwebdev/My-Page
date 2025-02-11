@@ -1,9 +1,9 @@
 import React from 'react'
-import { navbar } from './dataNav'
+import { navbar } from '../dataNav'
 
-export const NavMobile = () => {
+export const MobileBar = () => {
     return (
-        <nav className=" fixed bottom-0 bg-[#0d0a0ad9] w-full md:hidden  mx-auto z-index-sup flex justify-around h-[34px]   ">
+        <nav className="navbar-mobile-styles z-index-sup">
             {
                 navbar.map(e => (
                     <div key={e.id} className=" ">
@@ -11,7 +11,7 @@ export const NavMobile = () => {
                         NavPresentacion 
                         hover:text-[#dddcdc]   
                         text-[13px]
-                        mx-4"
+                        mx-4 truncate"
                             href={e.href}>{e.navOption}</a>
                     </div>
                 ))

@@ -10,7 +10,7 @@ export const Main = () => {
 
     return (
         <>
-            <section id="sobremi" className=" lg:pt-[5rem] pt-[1rem] px-5 my-margin-secciontexto-global ">
+            <section id="sobremi" className=" g-titles-sections px-5 my-margin-secciontexto-global ">
                 <Aboutme />
                 <article
                     className="animacionView box-shadow-aboutme rounded-[2.4rem] blue-light-bg mx-auto w-full md:mx-auto relative top-[5rem]  mb-[13rem] max-width-container ">

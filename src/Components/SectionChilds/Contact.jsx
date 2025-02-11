@@ -29,10 +29,7 @@ export const Contact = () => {
     return (
         <>
             <div className=" flex justify-center w-full ">
-                <h2 id="contacto"
-                    className=" lg:pt-[5rem] pt-[2rem]  
-            font-bold tracking-[5px]  text-[2rem]
-            md:text-[3rem]   text-titles-section-color">
+                <h2 id="contacto" className="g-titles-sections lg-titles-sections   font-bold tracking-[5px]  text-[2rem] md:text-[3rem]   text-titles-section-color">
                     {contactO.Contacto}</h2>
             </div>
 

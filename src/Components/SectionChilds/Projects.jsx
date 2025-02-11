@@ -10,7 +10,7 @@ export const Projects = () => {
 
             <div className=" flex justify-center w-full ">
                 <h2 id="proyectos"
-                    className="lg:pt-[5rem] pt-[2rem]  font-bold tracking-[5px]  text-[2rem] md:text-[3rem] text-titles-section-color">
+                    className="g-titles-sections  font-bold tracking-[5px]  text-[2rem] md:text-[3rem] text-titles-section-color">
                     Proyectos</h2>
             </div>
             <section className=" blue-light-bg shadow-tech-desk   rounded-[2.4rem] mx-5  mt-[1rem] mb-[13rem] md:mx-auto max-width-container">

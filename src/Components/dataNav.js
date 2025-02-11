@@ -1,12 +1,12 @@
 export const navbar = [
     {
-      id: 1,
+      id: 0,
       href: "#inicio",
       navOption: "Inicio"
     },
   
     {
-      id: 3,
+      id: 1,
       href: "#proyectos",
       navOption: "Proyectos"
     },
@@ -16,7 +16,7 @@ export const navbar = [
       navOption: "Sobre Mi"
     },
     {
-      id: 4,
+      id: 3,
       href: "#contacto",
       navOption: "Contacto"
     }
