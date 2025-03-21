@@ -63,7 +63,7 @@ export let dataApp = {
         id: 0,
         linkRepo: 'https://github.com/justin-A18/clinic-administrator',
         linkweb: 'https://clinic-administrator.vercel.app/',
-        tituloProyecto: 'Mas Farmacias replica',
+        tituloProyecto: 'Clinica Hackacode',
         en_proceso: true,
         imagenProyecto: './clinicaHackacode.png',
         TechUsada: [
