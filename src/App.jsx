@@ -1,6 +1,5 @@
 
 import { Header, Main } from './Components/index'
-import { gsap } from "gsap"
 import ComponentContext from './context/ComponentContext'
 import {  Contact, NavComponent, MobileBar, Projects } from './Components/SectionChilds'
 function App() {
