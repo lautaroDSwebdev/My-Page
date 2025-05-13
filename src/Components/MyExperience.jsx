@@ -20,7 +20,6 @@ export const Main = () => {
                         <article className=" flex justify-center p-[23px] md:p-[1.6rem] w-full  text-center md:col-span-2">
                             <div className="text-[1.2rem] md:text-[24px] w-[700px] texts-white  leading-8 flex flex-col gap-[2rem]  font-semibold">
                                 <h3 className="w-full  title_aboutme" aria-description={about.experiencia}>  {about.experiencia}</h3>
-                                {/* Actualmente soy un estudioso y apasionado desarrollador frontend que le encanta colaborar con otros desarrolladores u orientar a nuevos en este frustrante y opinionado camino, es muy reconfortante recibir feedback tanto de mi agilidad tecnica como de mi persona, es por eso que sigo mejorando y ayudando a mas gente con mucho cariño */}
                                 <b className="leading-[30px] tracking-[2px]">Queriendo encontrar un rumbo en mi vida luego de abordar algunas carreras que me desinteresaban, opté por convertirme en programador debido a mi cercania por las computadoras y mi gusto por las matematicas, por lo cual elegí orientarme por <i className="text-[#dbf537]">Programacion Web</i> en el año 2022.</b>
 
                                 <b className="leading-[30px] tracking-[2px]"> Actualmente soy un estudioso y apasionado <i className="text-[#dbf537]">Desarrollador</i>   que le encanta colaborar con otros desarrolladores y orientar a nuevos en este frustrante pero lindo camino</b>

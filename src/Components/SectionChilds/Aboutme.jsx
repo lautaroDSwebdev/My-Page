@@ -24,8 +24,6 @@ export const Aboutme = () => {
                                 <img className="ancho-imagenes-tech " src={e.img} />
                             </div>
                             <p className={`text-center ${e.tecnologia ? "p-1" : ""}   text-[1rem] font-semibold text-[#fff] `}>{e.tecnologia}</p>
-                            <div>
-                            </div>
                         </div>
                     ))}
                 </section>
