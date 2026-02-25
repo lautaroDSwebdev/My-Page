@@ -11,7 +11,7 @@ export const Aboutme = () => {
 
     return (
         <ContainerMaxWidth>
-            <div className=" flex justify-start w-full  ">
+            <div  className=" flex justify-start w-full  ">
                <TitleSection>Sobre mi</TitleSection>
             </div>
             <article className="w-full rounded-3xl  ">

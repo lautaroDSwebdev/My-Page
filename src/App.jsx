@@ -4,6 +4,7 @@ import { Header, Main } from './Components/index'
 import {  Contact, NavComponent, MobileBar, Projects } from './Components/SectionChilds'
 function App() {
   return (
+    // por si le quiero meter cambio de tema e idioma
       // <ComponentContext>
       // </ComponentContext>
       <div>

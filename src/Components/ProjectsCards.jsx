@@ -5,18 +5,22 @@ import { MdOutlineDateRange } from "react-icons/md";
 const ProjectsCards = () => {
   return (
     <section
+      id="proyectos"
       className="grid
      sm:grid-cols-[repeat(auto-fit,minmax(25rem,1fr))]
       gap-3"
     >
       {proyectos.map((e) => (
         <div
-          className="blue-light-bg shadow-tech-desk rounded-[5px] m-3"
           key={e.id}
+          className="blue-light-bg shadow-tech-desk rounded-[5px]  "
         >
-          <div className="flex flex-wrap justify-center sm:justify-between m-2 gap-2">
-            <a target="_blank" href={e.linkweb} className="">
-              <div className=" border border-1 border-[#666262] rounded-lg px-3 hover:bg-[#ffffff2c]">
+          <div className="flex flex-wrap justify-between  m-2 gap-2">
+            <a target="_blank" href={e.linkweb} >
+              <div
+                className={`border border-1 border-[#666262] rounded-lg  p-[10px]
+                     hover:bg-[#ffffff2c] ${e.linkweb === undefined ? "cursor-not-allowed" : ""}`}
+              >
                 <p className="title_project">{e.tituloProyecto}</p>
               </div>
             </a>

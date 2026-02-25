@@ -69,31 +69,31 @@ export const proyectos = [
           },
         ],
       },
-      {
-        id: 0,
-        linkRepo: "https://github.com/lautaroDSwebdev/caprichoso",
-        linkweb: "https://caprichoso.netlify.app/home/",
-        tituloProyecto: "Caprichoso Portfolio",
-        desc: "Reconstruccion y mejora de performance para pagina ya existente",
-        colaborative: false,
-        date: "  DIC - 2024",
-        en_proceso: false,
-        imagenProyecto: "./Caprichoso.webp",
-        TechUsada: [
-          {
-            id: 1,
-            nombre: "Astro",
-          },
-          {
-            id: 7,
-            nombre: "Typescript",
-          },
-          {
-            id: 8,
-            nombre: "Tailwind",
-          },
-        ],
-      },
+      // {
+      //   id: 0,
+      //   linkRepo: "https://github.com/lautaroDSwebdev/caprichoso",
+      //   linkweb: "https://caprichoso.netlify.app/home/",
+      //   tituloProyecto: "Caprichoso Portfolio",
+      //   desc: "Reconstruccion y mejora de performance para pagina ya existente",
+      //   colaborative: false,
+      //   date: "  DIC - 2024",
+      //   en_proceso: false,
+      //   imagenProyecto: "./Caprichoso.webp",
+      //   TechUsada: [
+      //     {
+      //       id: 1,
+      //       nombre: "Astro",
+      //     },
+      //     {
+      //       id: 7,
+      //       nombre: "Typescript",
+      //     },
+      //     {
+      //       id: 8,
+      //       nombre: "Tailwind",
+      //     },
+      //   ],
+      // },
       {
         id: 1,
         linkRepo: "https://github.com/Otorb/edutech",

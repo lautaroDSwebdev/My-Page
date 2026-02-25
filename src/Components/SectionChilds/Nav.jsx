@@ -1,29 +1,8 @@
-import { useState } from "react";
 import { navbar } from "../../mock/globalData"
-import { useEffect } from "react";
+import useNavigationHover from "../../hooks/useNavigationHover";
 
 export const NavComponent = () => {
-    const [activeSection, setActiveSection] = useState("");
-
-    // Scroll spy: detecta la sección activa
-    useEffect(() => {
-        const handleScroll = () => {
-            for (let i = navbar.length - 1; i >= 0; i--) {
-                const section = document.getElementById(navbar[i].href);
-                if (section) {
-                    const rect = section.getBoundingClientRect();
-                    if (rect.top <= 200 && rect.bottom >= 560) {
-                        // console.log(rect)
-                        setActiveSection(navbar[i].href);
-                        break;
-                    }
-                }
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-        return () => window.removeEventListener("scroll", handleScroll);
-    }, []);
+    const {activeSection} = useNavigationHover()
     return (
         <>
             <div>
@@ -35,8 +14,8 @@ export const NavComponent = () => {
                                     <a className={`navAnimation cursor-pointer
                                         NavPresentacion 
                                         hover:text-[#dddcdc]   
-                                        text-[1.3rem]
-                                        mx-4 ${activeSection === e.href ? "text-red": ""}`}
+                                        text-[1.3rem] underline-animation
+                                        mx-4 ${activeSection === e.href ? "active": ""}`}
                                         href={"#"+ e.href}>{e.navOption}</a>
                                 </div>
                             ))

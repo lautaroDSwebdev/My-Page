@@ -5,7 +5,7 @@ import TitleSection from "../Titles";
 export const Projects = () => {
   return (
     <ContainerMaxWidth>
-      <div id="proyectos" className=" flex justify-start w-full ">
+      <div  className=" flex justify-start w-full ">
         <TitleSection>Proyectos</TitleSection>
       </div>
       <ProjectsCards></ProjectsCards>

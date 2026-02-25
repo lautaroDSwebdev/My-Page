@@ -1,33 +1,11 @@
 export let dataApp = {
   es: {
     botonIdioma: "English",
-    navbar: [
-      {
-        id: 1,
-        href: "#inicio",
-        navOption: "Inicio",
-      },
-
-      {
-        id: 2,
-        href: "#sobremi",
-        navOption: "Sobre Mi",
-      },
-      {
-        id: 3,
-        href: "#proyectos",
-        navOption: "Proyectos",
-      },
-      {
-        id: 4,
-        href: "#contacto",
-        navOption: "Contacto",
-      },
-    ],
+   
     header: {
       saludo: "Hola!",
       nombre: "Soy",
-      profesion: "Programador Web",
+      profesion: "Desarrollador Web",
     },
     InfoSocialMedia: {
       urlGithub: "https://github.com/lautaroDSwebdev",
@@ -72,22 +50,22 @@ export const navbar = [
   {
     id: 0,
     href: "inicio",
-    navOption: "Inicio",
+    navOption: "inicio",
   },
-
+  
   {
     id: 1,
     href: "proyectos",
-    navOption: "Proyectos",
+    navOption: "proyectos",
   },
   {
     id: 2,
-    href: "sobremi",
-    navOption: "Sobre Mi",
+    href: "sobre-mi",
+    navOption: "sobre mi",
   },
   {
     id: 3,
     href: "contacto",
-    navOption: "Contacto",
+    navOption: "contacto",
   },
 ];
