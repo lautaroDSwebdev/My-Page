@@ -6,7 +6,7 @@ const TitleSection = ({ children }) => {
             font-bold tracking-[5px] 
              text-[2rem] 
              md:text-[3rem]
-              text-titles-section-color"
+              text-titles-section-color p-[.5rem]"
     >
       {children}
     </h2>

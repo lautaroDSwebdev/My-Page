@@ -1,6 +1,6 @@
 const ContainerMaxWidth = ({children}) => {
     return (
-        <section className="max-width-container mx-auto">
+        <section className="max-width-container mx-auto  ">
             {children}
         </section>
     )
