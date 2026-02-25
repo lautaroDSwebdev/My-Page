@@ -1,7 +1,6 @@
 const TitleSection = ({ children }) => {
   return (
     <h2
-      id=""
       className="
             font-bold tracking-[5px] 
              text-[2rem] 
