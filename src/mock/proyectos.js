@@ -38,6 +38,14 @@ export const proyectos = [
             id: 8,
             nombre: "Tailwind",
           },
+          {
+            id: 9,
+            nombre: "Golang",
+          },
+          {
+            id: 10,
+            nombre: "PostgreSQL",
+          },
         ],
       },
       {
