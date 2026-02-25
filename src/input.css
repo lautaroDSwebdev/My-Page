@@ -2,11 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-
-:root{
+:root {
   --bg-darkblue: #212f42;
   --darkblue_for_little_details: #2f4057;
-} 
+}
 
 /* global classes */
 html {
@@ -16,57 +15,87 @@ html {
   scroll-behavior: smooth;
   background: #cfcaca;
   background-color: var(--bg-darkblue);
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
   background: radial-gradient(circle, rgb(92, 128, 175) -35%, #212f42 72%);
   background-attachment: fixed;
 }
 
+.g-decoration {
+  text-decoration: underline #3fdee9 solid 2px;
+}
 
-.blue_strong-bg{
+.navbar-blur{
+  backdrop-filter: blur(14px);
+}
+.title_project {
+  font-size: 1rem /* 32px */;
+  color: #f5efe7;
+  font-weight: 700;
+  text-align: center;
+}
+.article_projects_container {
+  height: max-content;
+}
+.blue_strong-bg {
   background-color: var(--bg-darkblue);
 }
-.blue-light-bg{
-  background-color: #3E5879;
-  background: rgb(87,124,172);
+.blue-light-bg {
+  background-color: #3e5879;
+  background: rgb(87, 124, 172);
   background: radial-gradient(circle, rgb(53, 74, 102) 15%, #212f42 42%);
   background-attachment: fixed;
 }
-.blue-bg-very-strong{
-  background-color: var(--darkblue_for_little_details);
-}
-
-.form-inputs-style{
-  background-color: var(--darkblue_for_little_details);
-  color: #F5EFE7;
-  &::placeholder{
-    color: #F5EFE7;
-  }
-  &:focus{
-    background-color: #577cac;
-  }
+.blue-bg-very-strong {
+  background-color: #2f4057;
+  transition: all .2s ease-in-out;
+  
   &:hover{
+    background-color: #3c516e;
+
+  }
+}
+
+.form-inputs-style {
+  background-color: var(--darkblue_for_little_details);
+  color: #f5efe7;
+  &::placeholder {
+    color: #f5efe7;
+  }
+  &:focus {
+    background-color: #577cac;
+  }
+  &:hover {
     background-color: #577cac;
   }
 }
 
-
-.color-skin-strong-bg{
-background-color: #D8C4B6;
+.color-skin-strong-bg {
+  background-color: #d8c4b6;
 }
-.color-skin-light-bg{
-background-color: #F5EFE7;
+.color-skin-light-bg {
+  background-color: #f5efe7;
 }
-.texts-white{
-  color: #F5EFE7;
+.texts-white {
+  color: #f5efe7;
 }
-
 
 .buttons {
   cursor: pointer;
-  padding: .6em;
+  padding: 0.4em;
   font-size: 1em;
   text-align: center;
-  width: 7em;
+  width: 30%;
   aspect-ratio: 1/0.25;
   color: white;
   background: #212121;
@@ -78,31 +107,23 @@ background-color: #F5EFE7;
   box-shadow: 0 0 1em 1em rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   position: relative;
+  &:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em 0.35em rgba(0, 0, 0, 0.1);
+    background: radial-gradient(circle at bottom, #6f9ae0c9 10%, #212121 70%);
+    outline: 0;
+  }
 }
-
-.buttons:hover {
-  transform: scale(1.1);
-  box-shadow: 0 0 1em 0.45em rgba(0, 0, 0, 0.1);
-  background: linear-gradient(45deg, #212121, #252525);
-  background: radial-gradient(
-    circle at bottom,
-    rgba(50, 100, 180, 0.5) 10%,
-    #212121 70%
-  );
-  outline: 0;
-}
-
 
 div {
   margin: 0;
 }
 
-.max-width-container{
+.max-width-container {
   /* full  wide */
   max-width: 1210px;
   @media screen and (width < 800px) {
     max-width: 700px;
-    
   }
 }
 textarea {
@@ -127,7 +148,7 @@ b {
 }
 
 /* Specific Classes */
-.my_selfie_style{
+.my_selfie_style {
   border-radius: 46px;
   height: auto;
   width: 312px;
@@ -136,12 +157,18 @@ b {
 .bg-yoCodeando {
   /* por si quiero usar el fondo, queda guardado este */
   /* background-image: url('https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); */
-  background-image: url('../src/assets/backgroundHeader.webp');
+  background-image: url("../src/assets/backgroundHeader.webp");
 }
 
-
-
-a , p, h2, h1, h5, h6, h3, h4, b {
+a,
+p,
+h2,
+h1,
+h5,
+h6,
+h3,
+h4,
+b {
   color: #fff;
 }
 /* interaccion con el nav bar mobile */
@@ -159,9 +186,6 @@ a , p, h2, h1, h5, h6, h3, h4, b {
   z-index: 900;
 }
 
-
-
-
 .claseEmail,
 .claseTexto,
 .claseTextArea,
@@ -175,7 +199,6 @@ button {
   min-height: 3rem;
   padding-left: 1rem;
 }
-
 
 .shadow-tech {
   box-shadow: 0px 6px 7px #2f2e2e;
@@ -199,7 +222,6 @@ button {
 .box-shadow-aboutme {
   box-shadow: -1px 6px 14px rgb(40, 38, 38);
 }
-
 
 .dimensiones-cajas-tech {
   min-width: 5rem;
@@ -256,11 +278,10 @@ button {
   -moz-animation: sh02 0.5s 0s linear;
   animation: sh02 0.5s 0s linear;
 }
-.g-titles-sections{
+.g-titles-sections {
   padding-top: 1rem;
   @media screen and (width> 760px) {
     padding-top: 6rem;
-    
   }
 }
 .botonn::before {
@@ -306,33 +327,29 @@ button {
 
 /* Todo esto son las animaciones de la nueva caracteristica de css, todavia no está en todos los navegadores */
 
-
 @keyframes animationEffect {
-  0%{
-      transform: scale(1.0);
-    }
-    50%{
-      transform: scale(1.2);
-    }
-    100%{
-      transform: scale(1.0);
-    }
-
+  0% {
+    transform: scale(1);
   }
-  .animations_icons{
-      font-size: 1.5rem;
-      @media (width > 800px) {
-        &:hover{
-          /* animation: name duration timing-function delay iteration-count direction fill-mode; */
-          animation: animationEffect 1s infinite ;
-          animation-delay: 0s;
-          color: #dadada;
-        }
-        
-        
-      }
+  50% {
+    transform: scale(1.2);
   }
-.navbar-mobile-styles{
+  100% {
+    transform: scale(1);
+  }
+}
+.animations_icons {
+  font-size: 1.5rem;
+  @media (width > 800px) {
+    &:hover {
+      /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+      animation: animationEffect 1s infinite;
+      animation-delay: 0s;
+      color: #dadada;
+    }
+  }
+}
+.navbar-mobile-styles {
   position: fixed;
   bottom: 0;
   width: 100%;
@@ -346,7 +363,7 @@ button {
     display: none;
   }
 }
-.title_aboutme{
+.title_aboutme {
   padding: 20px 0;
   font-size: 3rem;
   /* background-color: red; */
@@ -359,7 +376,6 @@ button {
   color: transparent;
   -webkit-text-stroke: #ffffff 1px;
   @media screen and (width < 760px) {
-    
     font-size: 2rem;
   }
 }

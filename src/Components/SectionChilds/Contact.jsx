@@ -4,6 +4,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from '@hookform/resolvers/yup';
 import * as yup from "yup";
 import { dataApp } from "../../mock/index";
+import ContainerMaxWidth from "../ContainerMaxWidth";
 
 export const Contact = () => {
     const schema = yup.object({
@@ -27,8 +28,8 @@ export const Contact = () => {
     const contactO = dataApp.es.contacto
 
     return (
-        <>
-            <div className=" flex justify-center w-full ">
+        <ContainerMaxWidth>
+            <div className=" flex justify-start w-full ">
                 <h2 id="contacto" className="g-titles-sections lg-titles-sections   font-bold tracking-[5px]  text-[2rem] md:text-[3rem]   text-titles-section-color">
                     {contactO.Contacto}</h2>
             </div>
@@ -98,6 +99,6 @@ export const Contact = () => {
                 </form>
 
             </section>
-        </>
+        </ContainerMaxWidth>
     )
 }

@@ -2,17 +2,17 @@
 
 import { dataApp } from "../../mock/index"
 import Tech from "../../mock/Tecnologias"
+import ContainerMaxWidth from "../ContainerMaxWidth"
+import TitleSection from "../Titles"
 
 const about = dataApp.es.sobreMi
 
 export const Aboutme = () => {
 
     return (
-        <>
-            <div className=" flex justify-center w-full  ">
-                <h2
-                    className="my-[2rem] text-tamaño-letra-titulosDeSecciones font-bold tracking-[5px] md:text-[3rem]  text-titles-section-color">
-                    {about.titulo}</h2>
+        <ContainerMaxWidth>
+            <div className=" flex justify-start w-full  ">
+               <TitleSection>Sobre mi</TitleSection>
             </div>
             <article className="w-full rounded-3xl  ">
                 <p className="a flex justify-center w-full text-[1.3rem] my-[5px] md:text-[2rem]
@@ -28,6 +28,6 @@ export const Aboutme = () => {
                     ))}
                 </section>
             </article>
-        </>
+        </ContainerMaxWidth>
     )
 }
