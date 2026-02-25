@@ -2,7 +2,7 @@ import { navbar } from "../../mock/globalData"
 
 export const MobileBar = () => {
     return (
-        <nav className="navbar-mobile-styles z-index-sup">
+        <nav className="navbar-blur z-index-sup">
             {
                 navbar.map(e => (
                     <div key={e.id} className=" ">
