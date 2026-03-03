@@ -1,16 +1,15 @@
 import { MdOutlineDateRange } from "react-icons/md";
 import { proyectos } from "../../mock/proyectos";
-import ContainerMaxWidth from "../ContainerMaxWidth";
 import TitleSection from "../Titles";
 import { FaCode } from "react-icons/fa";
 import { RiExternalLinkFill } from "react-icons/ri";
 
 export const Projects = () => {
   return (
-    <ContainerMaxWidth>
+    <div  id="proyectos" className="max-width-container mx-auto">
       <div
+        
         className=" flex justify-start w-full g-titles-sections"
-        id="proyectos"
       >
         <TitleSection>Proyectos</TitleSection>
       </div>
@@ -47,9 +46,25 @@ export const Projects = () => {
                   >
                     <FaCode className="text-[1.5rem]"></FaCode>
                   </a>
-                  <a href={e.linkweb} target="_blank" rel="noopener noreferrer">
-                    <RiExternalLinkFill className="text-[1.5rem] "></RiExternalLinkFill>
-                  </a>
+                  {e.linkweb ? (
+                    <a
+                      href={e.linkweb}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <RiExternalLinkFill className="text-[1.5rem] "></RiExternalLinkFill>
+                    </a>
+                  ) : 
+                    <a
+                      href={e.linkweb}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      {/* <RiExternalLinkFill className="text-[1.5rem] "></RiExternalLinkFill> */}
+                    </a>
+                  
+                  
+                  }
                 </div>
               </section>
             </div>
@@ -73,6 +88,6 @@ export const Projects = () => {
           </div>
         ))}
       </section>
-    </ContainerMaxWidth>
+    </div>
   );
 };

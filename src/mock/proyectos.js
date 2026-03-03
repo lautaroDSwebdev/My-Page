@@ -147,31 +147,33 @@ export const proyectos = [
             id: 1,
             nombre: "React js",
           },
-
+          
           {
             id: 3,
             nombre: "Api Github",
           },
         ],
       },
-      // {
-      //   id: 3,
-      //   linkRepo: 'https://github.com/lautaroDSwebdev/search-country',
-      //   linkweb: 'https://search-country-web.netlify.app/#/All',
-      //   tituloProyecto: 'Buscador de Paises',
-      //   en_proceso: false,
-      //   imagenProyecto: './SearchCountry.webp',
-      //   TechUsada: [
-      //     {
-      //       id: 1,
-      //       nombre: 'React js'
-      //     },
-      //     {
-      //       id: 4,
-      //       nombre: 'Tailwind'
-      //     }
-      //   ]
-      // },
+      {
+        id: 3,
+        linkRepo: 'https://github.com/lautaroDSwebdev/search-country',
+        linkweb: 'https://search-country-web.netlify.app/#/All',
+        desc: "Primer proyecto de practica donde se buscan paises de todo el mundo de manera totalmente  dinamica",
+        date: "FEB - MAR 2024",
+        tituloProyecto: 'Buscador de Paises',
+        en_proceso: false,
+        imagenProyecto: './SearchCountry.webp',
+        TechUsada: [
+          {
+            id: 1,
+            nombre: 'React js'
+          },
+          {
+            id: 4,
+            nombre: 'Tailwind'
+          }
+        ]
+      },
       {
         id: 4,
         linkRepo: "https://github.com/lautaroDSwebdev/My-Page",
@@ -192,29 +194,31 @@ export const proyectos = [
           },
         ],
       },
-      // {
-      //   id: 5,
-      //   linkRepo:
-      //     'https://github.com/lautaroDSwebdev/proyecto-turismo-espacial',
-      //   linkweb: 'https://turismo-espacial-practica-front.netlify.app/',
-      //   tituloProyecto: 'Space Turism',
-      //   en_proceso: false,
-      //   imagenProyecto: './space.webp',
-      //   TechUsada: [
-      //     {
-      //       id: 1,
-      //       nombre: 'HTML'
-      //     },
-      //     {
-      //       id: 2,
-      //       nombre: 'CSS'
-      //     },
-      //     {
-      //       id: 3,
-      //       nombre: 'JavaScript'
-      //     }
-      //   ]
-      // },
+      {
+        id: 5,
+        linkRepo:
+        'https://github.com/lautaroDSwebdev/proyecto-turismo-espacial',
+        linkweb: 'https://turismo-espacial-practica-front.netlify.app/',
+        desc: "Proyecto donde se lleva al usuario a una navegacion espacial por la luna, algunos planetas y con informacion de pilotos y naves espaciales que viajaron al espacio",
+        date: "NOV 2023 / EN 2024",
+        tituloProyecto: 'Space Turism',
+        en_proceso: false,
+        imagenProyecto: './space.webp',
+        TechUsada: [
+          {
+            id: 1,
+            nombre: 'HTML'
+          },
+          {
+            id: 2,
+            nombre: 'CSS'
+          },
+          {
+            id: 3,
+            nombre: 'JavaScript'
+          }
+        ]
+      },
       // {
       //   id: 6,
       //   linkweb: 'https://lautarodisalvosmco.wixsite.com/prueba1smc',

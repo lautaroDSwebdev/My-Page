@@ -1,6 +1,7 @@
 
-import { Header, Main } from './Components/index'
 // import ComponentContext from './context/ComponentContext'
+import { AboutMe } from './Components/AboutMe'
+import { Header } from './Components/HeaderComponent'
 import {  Contact, NavComponent, MobileBar, Projects } from './Components/SectionChilds'
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
           <Header />
           
           <Projects />
-          <Main />
+          <AboutMe />
           <Contact />
           <MobileBar />
       </div>

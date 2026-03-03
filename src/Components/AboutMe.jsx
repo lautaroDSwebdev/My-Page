@@ -1,21 +1,24 @@
-// import { Aboutme } from "./SectionChilds/index";
 import { dataApp } from "../mock/index";
 import ContainerMaxWidth from "./ContainerMaxWidth";
-import TitleSection from "./Titles";
 import ArrayTech from "../mock/Tecnologias";
 
-export const Main = () => {
+export const AboutMe = () => {
   const about = dataApp.es.sobreMi;
 
   return (
     <>
-      <section
-        id="sobre-mi"
-        className=" px-5 my-margin-secciontexto-global g-titles-sections"
-      >
+      <section id="sobre-mi" className=" px-5 my-margin-secciontexto-global g-titles-sections">
         <ContainerMaxWidth>
           <div className=" flex justify-start w-full  ">
-            <TitleSection>Sobre mi</TitleSection>
+            <h2
+              
+              className="font-bold tracking-[5px] 
+             text-[2rem] 
+             md:text-[3rem]
+              text-titles-section-color p-[.5rem]"
+            >
+              Sobre mi
+            </h2>
           </div>
           <article className="w-full rounded-3xl  ">
             <p
@@ -24,6 +27,7 @@ export const Main = () => {
             >
               {about.tecnologias}
             </p>
+
             <section className=" grid grid-cols-[repeat(auto-fit,minmax(7rem,1fr))] justify-center mx-auto  mb-[1rem]  gap-[10px] max-width-container">
               {ArrayTech.map((e) => (
                 <div

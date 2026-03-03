@@ -31,8 +31,8 @@ export const Contact = () => {
   const contactO = dataApp.es.contacto;
 
   return (
-    <ContainerMaxWidth>
-      <div id="contacto" className=" flex justify-start w-full ">
+    <div id="contacto" className="max-width-container mx-auto ">
+      <div  className=" flex justify-start w-full ">
         <TitleSection>{contactO.Contacto}</TitleSection>
       </div>
 
@@ -139,6 +139,6 @@ export const Contact = () => {
           </button>
         </form>
       </section>
-    </ContainerMaxWidth>
+    </div>
   );
 };
