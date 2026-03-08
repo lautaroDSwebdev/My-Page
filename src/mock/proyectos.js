@@ -1,5 +1,47 @@
 export const proyectos = [
       {
+        id: 657,
+        linkRepo: "https://github.com/lautaroDSwebdev/nocountry-equino-project",
+        linkweb: "https://horsetrust.netlify.app/equino",
+        tituloProyecto: "Horse Trust",
+        date: " FEB - MAR 2026",
+        desc: "Marketplace personalizado para venta de caballos apuntado a nichos como carreras, salto, doma, recreacional",
+        colaborative: true,
+        en_proceso: false,
+        imagenProyecto: "./clinicaHackacode.png",
+        TechUsada: [
+          {
+            id: 1,
+            nombre: "Next js",
+          },
+          {
+            id: 827,
+            nombre: "React Form",
+          },
+          {
+            id: 7,
+            nombre: "Typescript",
+          },
+          
+          {
+            id: 8,
+            nombre: "Tailwind",
+          },
+          {
+            id: 9,
+            nombre: "Spring Boot",
+          },
+          {
+            id: 10,
+            nombre: "PostgreSQL",
+          },
+          {
+            id: 11,
+            nombre: "MongoDB",
+          },
+        ],
+      },
+      {
         id: 0,
         linkRepo: "https://github.com/justin-A18/clinic-administrator",
         linkweb: "https://clinic-administrator.vercel.app/",
