@@ -16,7 +16,7 @@ export let dataApp = {
       nombreWahstapp: "whatsapp",
       urlmail: "mailto:lautarodisalvo5@gmail.com",
       nombreMail: "mail",
-      urlCV2025: "./LautaroDiSalvoResumeWebDev.pdf",
+      urlCV2025: "./curriculum-fullstack-2026-Lautaro-Di-Salvo.pdf",
       nombreDriveCV: "mail",
     },
     mail: "Mail",
